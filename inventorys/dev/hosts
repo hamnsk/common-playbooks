@@ -1,0 +1,18 @@
+# List all the nodes in the os cluster
+[os-cluster]
+d00os0001 roles=data,master
+d00os0002 roles=data,ingest
+d00os0003 roles=data,ingest
+
+# List all the Master eligible nodes under this group
+[master]
+d00os0001
+
+[dashboards]
+d00dash0001
+
+[all:vars]
+env=dev
+ansible_user=ansible
+ansible_ssh_common_args=' -o StrictHostKeyChecking=no'
+ansible_ssh_extra_args="-R3128:localhost:3128"
