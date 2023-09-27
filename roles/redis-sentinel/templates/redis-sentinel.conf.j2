@@ -1,0 +1,26 @@
+# {{ ansible_managed }}
+
+{% set _masterip = redis_slaveof.split(' ')[0] if redis_slaveof else '' %}
+
+bind {{ redis_sentinel_bind }}
+port {{ redis_sentinel_port }}
+
+protected-mode {{ (redis_sentinel_protected_mode|bool) | ternary('yes', 'no') }}
+
+dir "/tmp"
+
+sentinel monitor {{ redis_sentinel_master_group_name }} {{ _masterip }} {{ redis_port }} 2
+
+sentinel down-after-milliseconds {{ redis_sentinel_master_group_name }} {{ redis_sentinel_down_after_milliseconds }}
+
+sentinel failover-timeout {{ redis_sentinel_master_group_name }} {{ redis_sentinel_failover_timeout }}
+
+logfile "{{ redis_sentinel_logfile }}"
+
+sentinel deny-scripts-reconfig yes
+
+
+SENTINEL resolve-hostnames no
+
+SENTINEL announce-hostnames no
+

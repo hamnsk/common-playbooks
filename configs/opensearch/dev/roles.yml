@@ -52,3 +52,23 @@ indexes_web_search_full_access:
 # Restrict users so they can only view visualization and dashboard on OpenSearchDashboards
 kibana_read_only:
   reserved: true
+# ----------------------------------------------------
+fluentbit:
+  reserved: false
+  cluster_permissions:
+    - 'cluster_monitor'
+    - 'cluster_composite_ops'
+    - 'indices:admin/template/get'
+    - 'indices:admin/template/put'
+    - 'cluster:admin/ingest/pipeline/get'
+    - 'cluster:admin/ingest/pipeline/put'
+    - "indices:data/write/bulk*"
+    - "indices:data/write/index"
+  index_permissions:
+    - index_patterns:
+        - '*'
+      allowed_actions:
+        - 'crud'
+        - 'create_index'
+        - "indices:data/write/index"
+        - "indices:data/write/bulk*"

@@ -1,0 +1,7 @@
+---
+
+- name: add epel repo
+  yum: name=epel-release state=present
+
+- name: install redis
+  yum: name=redis state=present

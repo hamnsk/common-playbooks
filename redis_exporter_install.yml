@@ -1,0 +1,8 @@
+- hosts: all
+  vars:
+    prometheus_components:
+      - redis_exporter_oliver006
+    prometheus_systemd_oom_score: "-1000"
+  pre_tasks:
+  roles:
+    - prometheus

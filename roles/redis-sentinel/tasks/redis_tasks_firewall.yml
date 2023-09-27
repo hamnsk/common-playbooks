@@ -1,0 +1,16 @@
+---
+
+- command: systemctl is-enabled firewalld
+  failed_when: false
+  changed_when: false
+  register: _firewalld_is_enabled
+
+- set_fact: _use_firewalld="{{ true if (_firewalld_is_enabled.stdout == 'enabled') else false }}"
+
+- name: set firewall rules
+  block:
+    - firewalld: port={{_redis_port_fw}} immediate=yes permanent=true
+                 state=enabled
+    - firewalld: port={{_redis_sentinel_port_fw}} immediate=yes permanent=true
+                 state={{ (redis_use_sentinel|bool) | ternary('enabled', 'disabled') }}
+  when: _use_firewalld|bool

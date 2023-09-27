@@ -24,3 +24,10 @@ logstash:
   hash: "{{ logstash_password }}"
   reserved: true
   description: "logstash user"
+
+fluentbit:
+  hash: "{{ fluentbit_password }}"
+  reserved: false
+  description: "Fluentbit user for write data"
+  backend_roles:
+    - "fluentbit"

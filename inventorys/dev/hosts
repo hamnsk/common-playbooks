@@ -11,6 +11,15 @@ d00os0001
 [dashboards]
 d00dash0001
 
+
+[redis-sentinel-group]
+d00redis-sentinel0001
+d00redis-sentinel0002
+d00redis-sentinel0003
+
+[prometheus-group]
+d00prom0001
+
 [all:vars]
 env=dev
 ansible_user=ansible

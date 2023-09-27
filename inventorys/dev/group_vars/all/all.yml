@@ -23,3 +23,4 @@ iac_enable: false
 admin_password: "{{ lookup('password', '{{playbook_dir}}/secrets/opensearch/{{env}}/admin.opensearch chars=ascii_letters,digits length=16') }}"
 kibanaserver_password: "{{ lookup('password', '{{playbook_dir}}/secrets/opensearch/{{env}}/kibanaserver.opensearch chars=ascii_letters,digits length=16') }}"
 logstash_password: "{{ lookup('password', '{{playbook_dir}}/secrets/opensearch/{{env}}/logstash.opensearch chars=ascii_letters,digits length=16') }}"
+fluentbit_password: "{{ lookup('password', '{{playbook_dir}}/secrets/opensearch/{{env}}/fluentbit.opensearch chars=ascii_letters,digits length=16') }}"

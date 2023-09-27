@@ -1,0 +1,45 @@
+---
+# defaults file for redis
+
+redis_use_sentinel: true
+
+redis_bind: "{{ansible_default_ipv4.address}}"
+redis_port: 6379
+
+redis_slaveof: 127.0.0.1 6379 #<masterip> <masterport>
+redis_masterauth:
+
+redis_slave_serve_stale_data: true
+redis_slave_read_only: true
+
+redis_protected_mode: false
+
+redis_timeout: 0
+redis_tcp_keepalive: 300
+
+redis_loglevel: notice
+redis_logfile: /var/log/redis/redis.log
+
+redis_databases: 16
+
+redis_save:
+  - 900 1
+  - 300 10
+  - 60 10000
+
+redis_activerehashing: true
+
+redis_sentinel_bind: "{{ansible_default_ipv4.address}}"
+redis_sentinel_port: 26379
+
+redis_sentinel_protected_mode: "{{redis_protected_mode}}"
+
+redis_sentinel_master_group_name: redis
+
+redis_sentinel_logfile: /var/log/redis/sentinel.log
+
+redis_sentinel_down_after_milliseconds: 15000
+redis_sentinel_failover_timeout: 90000
+
+_redis_port_fw: "{{redis_port}}/tcp"
+_redis_sentinel_port_fw: "{{redis_sentinel_port}}/tcp"

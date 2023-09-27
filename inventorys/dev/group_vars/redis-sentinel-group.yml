@@ -1,0 +1,75 @@
+log_out_host: d00os0001
+log_out_port: 9200
+
+log_root: /var/log
+#https://gist.github.com/jgould22/f42ad756fc07143e2a104d7844f39b12
+redis_logfile: /var/log/redis/redis.log
+redis_sentinel_logfile: /var/log/redis/sentinel.log
+
+fluentbit_custom_parsers:
+  - Name: redis
+    Format: regex
+    Regex: '^(?<pid>[\d]+):(?<role>[\w])\s(?<time>[^ ]*\s*[^ ]* [^ ]*\s[^ ]*)\s(?<level>[^ ]*)\s(?<message>.*$)'
+    Time_Key: time
+    Time_Format: "%d %b %Y %H:%M:%S.%L"
+    Time_Keep: "On"
+    Time_Offset: "+0300"
+
+fluentbit_inputs:
+  - name: tail
+    path: "{{ redis_logfile }}"
+    parser: redis
+    db: "{{ redis_logfile }}.db"
+    skip_long_lines: Off
+    refresh_interval: 10
+    tag: "redis*"
+    storage.type: filesystem
+    mem_buf_limit: 64M
+    buffer_chunk_size: 1M
+    buffer_max_size: 16M
+  - name: tail
+    path: "{{ redis_sentinel_logfile }}"
+    parser: redis
+    db: "{{ redis_sentinel_logfile }}.db"
+    skip_long_lines: Off
+    refresh_interval: 10
+    tag: "redis*"
+    storage.type: filesystem
+    mem_buf_limit: 64M
+    buffer_chunk_size: 1M
+    buffer_max_size: 16M
+
+fluentbit_filters:
+  - name: modify
+    match: "redis*"
+    add: hostname ${HOSTNAME}
+  - name: modify
+    match: "redis*"
+    condition: 'key_value_equals level #'
+    set: level WARNING
+  - name: modify
+    match: "redis*"
+    condition: key_value_equals level *
+    set: level NOTICE
+  - name: modify
+    match: "redis*"
+    condition: key_value_equals level -
+    set: level INFO
+  - name: modify
+    match: "redis*"
+    condition: key_value_equals level .
+    set: level DEBUG
+
+fluentbit_outputs:
+  - Name: es
+    Match: "*"
+    Host: "{{ log_out_host }}"
+    Port: "{{ log_out_port }}"
+    HTTP_User: fluentbit
+    HTTP_Passwd:  "{{ lookup('password', '{{playbook_dir}}/secrets/opensearch/{{env}}/fluentbit.opensearch chars=ascii_letters,digits length=16') }}"
+    Tls: On
+    Tls.verify: Off
+    Index: redis
+    Logstash_Format: "on"
+    Logstash_Prefix: redis
+    Suppress_Type_Name: "On"

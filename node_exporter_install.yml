@@ -1,0 +1,17 @@
+- hosts: all
+  vars:
+    prometheus_components:
+      - node_exporter
+      - process_exporter_ncabatoff
+    prometheus_systemd_oom_score: "-1000"
+    prometheus_process_exporter_ncabatoff_cfgs:
+      - name: all_process
+        user: prometheus
+        port: 9256
+        data:
+          process_names:
+            - name: !unsafe "{{.Username}}:{{.ExeFull}}"
+              cmdline:
+              - !unsafe ".+"
+  roles:
+    - prometheus

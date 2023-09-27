@@ -1,0 +1,2422 @@
+---
+defaults:
+  port: 9121
+  tgroup: redis
+software:
+  name: oliver006/redis_exporter
+  release: v1.32.0
+  prerelease: null
+  url: https://github.com/oliver006/redis_exporter
+  source: https://github.com/oliver006/redis_exporter.git
+  updated: '2021-06-20T04:28:11.425427'
+  master:
+    commit:
+      sha: 16aada983b3dfab7321a67e3b02e6ae75733a918
+      timestamp: '2021-06-12T18:06:09'
+    files: []
+  releases:
+    - name: v1.32.0
+      commit: null
+      timestamp: '2021-12-03T14:31:37'
+      prerelease: false
+      files:
+        - name: redis_exporter-v1.32.0.darwin-amd64.tar.gz
+          commit: null
+          size: 3314124
+          sha256: sha256:a6b779dc0eef65af12b134d630228a5a28dc8a21afe5bbdf72c38ad91833f7fb
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.darwin-amd64.tar.gz
+        - name: redis_exporter-v1.32.0.freebsd-386.tar.gz
+          commit: null
+          size: 2973043
+          sha256: sha256:61e147bfbc6b52badcdecb175c3384ecf8fa100e6797c16c3d3d6fd959e8edec
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.freebsd-386.tar.gz
+        - name: redis_exporter-v1.32.0.freebsd-amd64.tar.gz
+          commit: null
+          size: 3235129
+          sha256: sha256:a0bbd26798e840755ebfe1a2b706544d0898efc7ff0851047b50f7ef67cc47f0
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.freebsd-amd64.tar.gz
+        - name: redis_exporter-v1.32.0.freebsd-arm.tar.gz
+          commit: null
+          size: 2930345
+          sha256: sha256:e4e3b6531455ff6f3fba629ef4203e926857835918904cf33a2f523ce80deae9
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.freebsd-arm.tar.gz
+        - name: redis_exporter-v1.32.0.illumos-amd64.tar.gz
+          commit: null
+          size: 3226021
+          sha256: sha256:3de6790b2b09dd6eff10998f186f028ffcd25ede4c761a206161902420010114
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.illumos-amd64.tar.gz
+        - name: redis_exporter-v1.32.0.linux-386.tar.gz
+          commit: null
+          size: 2968595
+          sha256: sha256:2e96c94609d3a345c042b13441010e6e7d54031efb4df5f6cc7e02396834b103
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.linux-386.tar.gz
+        - name: redis_exporter-v1.32.0.linux-amd64.tar.gz
+          commit: null
+          size: 3170803
+          sha256: sha256:c26e42b77ce7c2f14a8180276ddec207230959f88f3d28a520be2d9aa1dceb2f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.linux-amd64.tar.gz
+        - name: redis_exporter-v1.32.0.linux-arm.tar.gz
+          commit: null
+          size: 2921027
+          sha256: sha256:8539c4ae530ef75b2c4d8fab681be2ee2fbbb568efcd63293f49840bc73186b3
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.linux-arm.tar.gz
+        - name: redis_exporter-v1.32.0.linux-arm64.tar.gz
+          commit: null
+          size: 2917219
+          sha256: sha256:3a6eb3546b5ee1264587218de63b01def70418e98da33a6765788bd58216e2ef
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.linux-arm64.tar.gz
+        - name: redis_exporter-v1.32.0.linux-mips64.tar.gz
+          commit: null
+          size: 2778747
+          sha256: sha256:a12325eaa669bddbc385a43ede9b6aedd2b19fb8c527614a0c796e951898f1cb
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.linux-mips64.tar.gz
+        - name: redis_exporter-v1.32.0.linux-mips64le.tar.gz
+          commit: null
+          size: 2713351
+          sha256: sha256:7fd8ac5e245c8844561f329d85268aa0ef0aeffbe06ea7f1dab6f93ba084ee57
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.linux-mips64le.tar.gz
+        - name: redis_exporter-v1.32.0.linux-ppc64.tar.gz
+          commit: null
+          size: 2817957
+          sha256: sha256:4a9e054b67fa733b96d3dd7a3b4805c2dcf9478c5201dc3a67748f9103aaaa99
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.linux-ppc64.tar.gz
+        - name: redis_exporter-v1.32.0.linux-ppc64le.tar.gz
+          commit: null
+          size: 2775207
+          sha256: sha256:29f8962c12abd3b2ec76adc67d0c881af88428450ca4e825c8bebf9abe20810c
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.linux-ppc64le.tar.gz
+        - name: redis_exporter-v1.32.0.linux-s390x.tar.gz
+          commit: null
+          size: 3053277
+          sha256: sha256:34a0496c67b3bb88e9cf11e402222b46d5f044590d06df53a5504ab46a52e8e5
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.linux-s390x.tar.gz
+        - name: redis_exporter-v1.32.0.netbsd-386.tar.gz
+          commit: null
+          size: 2963400
+          sha256: sha256:b5aaae105203195086d4501155011ded98d83b18a3a8b0b9f88512a83d5c6f77
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.netbsd-386.tar.gz
+        - name: redis_exporter-v1.32.0.netbsd-amd64.tar.gz
+          commit: null
+          size: 3223239
+          sha256: sha256:786ee7cccc13bd8f228469600637a212b1db2d43dd6df32c4b598765759414e5
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.netbsd-amd64.tar.gz
+        - name: redis_exporter-v1.32.0.netbsd-arm.tar.gz
+          commit: null
+          size: 2919958
+          sha256: sha256:a8cd68c8b7d572963824cbedbbe88b19a11b0471db526095aeba66b4eebd01eb
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.netbsd-arm.tar.gz
+        - name: redis_exporter-v1.32.0.openbsd-386.tar.gz
+          commit: null
+          size: 2972050
+          sha256: sha256:547737325bc80a103a03784dbd55c3ff25b1b54358128843c03e5e4092adfd55
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.openbsd-386.tar.gz
+        - name: redis_exporter-v1.32.0.openbsd-amd64.tar.gz
+          commit: null
+          size: 3237229
+          sha256: sha256:d0f76d963e596d3149e9c77f3a33b41f93194ef0b27b3bcab33cf23bcae6af21
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.openbsd-amd64.tar.gz
+        - name: redis_exporter-v1.32.0.solaris-amd64.tar.gz
+          commit: null
+          size: 3223123
+          sha256: sha256:63829d7412d0ff88fa80f531665031ca57ceb3b5492b193d43efff6d7627c643
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.solaris-amd64.tar.gz
+        - name: redis_exporter-v1.32.0.windows-386.zip
+          commit: null
+          size: 3048770
+          sha256: sha256:c679cacb9438bf8cf7d0660d732697565551e77aec8f528bf5a1f19b330b5666
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.windows-386.zip
+        - name: redis_exporter-v1.32.0.windows-amd64.zip
+          commit: null
+          size: 3174432
+          sha256: sha256:3820f9aa67a78d321ad08f8a231dafb431a75fea5437e654661e914b19cb6de2
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/redis_exporter-v1.32.0.windows-amd64.zip
+        - name: sha256sums.txt
+          commit: null
+          size: 2382
+          sha256: sha256:77d4126a5abde7c3c27e386fd576c4d666d20f2675c8f3a82c05ef8db44e5ed6
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.32.0/sha256sums.txt
+    - name: v1.24.0
+      commit: null
+      timestamp: '2021-06-09T01:40:26'
+      prerelease: false
+      files:
+        - name: redis_exporter-v1.24.0.darwin-amd64.tar.gz
+          commit: null
+          size: 3276580
+          sha256: sha256:fff98dd9cf266689d0394671cb2c18871c96bb1af046cc7e8dcc884ce1f6d639
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.darwin-amd64.tar.gz
+        - name: redis_exporter-v1.24.0.freebsd-386.tar.gz
+          commit: null
+          size: 2969721
+          sha256: sha256:7113d8f8f6073fb649703fb62ff864e417d9cb56fbbeb6cea95ca53270d94f08
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.freebsd-386.tar.gz
+        - name: redis_exporter-v1.24.0.freebsd-amd64.tar.gz
+          commit: null
+          size: 3152088
+          sha256: sha256:7a2dbc9f4638502bb479d5f183cb18d7776c3612650cfbd7d7c338b74e3cc5d1
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.freebsd-amd64.tar.gz
+        - name: redis_exporter-v1.24.0.freebsd-arm.tar.gz
+          commit: null
+          size: 2915581
+          sha256: sha256:6082bbbc126e4bfe0a63d8916949fcb88dbdca24fd84774f413800bda96d1ca0
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.freebsd-arm.tar.gz
+        - name: redis_exporter-v1.24.0.illumos-amd64.tar.gz
+          commit: null
+          size: 3139375
+          sha256: sha256:7204756220726031767a939e3b144ca731c7a87acfd54fa41308a4c74b2422b8
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.illumos-amd64.tar.gz
+        - name: redis_exporter-v1.24.0.linux-386.tar.gz
+          commit: null
+          size: 2966393
+          sha256: sha256:08a5b7e328817bb0b46c8727b044b4aabc13239c5967b7eb650fdd8e3ebd8473
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.linux-386.tar.gz
+        - name: redis_exporter-v1.24.0.linux-amd64.tar.gz
+          commit: null
+          size: 3144705
+          sha256: sha256:aae973791acec280942a518be396e4b09b1d6720d67b5ae31662db8913d1fd53
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.linux-amd64.tar.gz
+        - name: redis_exporter-v1.24.0.linux-arm.tar.gz
+          commit: null
+          size: 2906561
+          sha256: sha256:45b36ab6e4f484d97b11adb3c99c6d66e8a90a85c777d2ced740a17fbfc69d99
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.linux-arm.tar.gz
+        - name: redis_exporter-v1.24.0.linux-arm64.tar.gz
+          commit: null
+          size: 2831160
+          sha256: sha256:cf0e40b5449e70462cad7cf13cbcaffeebbfc828288070bc46a5a7bec08c8113
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.linux-arm64.tar.gz
+        - name: redis_exporter-v1.24.0.linux-mips64.tar.gz
+          commit: null
+          size: 2775023
+          sha256: sha256:25246663edf407a65ae2fb1905f3af5392fe3621b004afb5b85dc6f85a93cbee
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.linux-mips64.tar.gz
+        - name: redis_exporter-v1.24.0.linux-mips64le.tar.gz
+          commit: null
+          size: 2707592
+          sha256: sha256:a91bc7e1f2e2922289b592daab04ae5210a38da7e5683e93cd262e72226ccb37
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.linux-mips64le.tar.gz
+        - name: redis_exporter-v1.24.0.linux-ppc64.tar.gz
+          commit: null
+          size: 2802828
+          sha256: sha256:f00a25fd1801bb07d01e03da70336c45166b3688aee763bbe174740349cc990b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.linux-ppc64.tar.gz
+        - name: redis_exporter-v1.24.0.linux-ppc64le.tar.gz
+          commit: null
+          size: 2752898
+          sha256: sha256:ea9a09a09bb6bb542eea52129a8b4d8d370c627aeb197db0ba30b206e1ac1587
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.linux-ppc64le.tar.gz
+        - name: redis_exporter-v1.24.0.linux-s390x.tar.gz
+          commit: null
+          size: 3050739
+          sha256: sha256:4a9ec82c4d9dbd62c3867264801af65a050a303db821d038abf19aacbe1d702b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.linux-s390x.tar.gz
+        - name: redis_exporter-v1.24.0.netbsd-386.tar.gz
+          commit: null
+          size: 2959715
+          sha256: sha256:8adaf488fa4be274c30baab84adfcc9d2b9d2a2511aedc67f48f4770ad3dc355
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.netbsd-386.tar.gz
+        - name: redis_exporter-v1.24.0.netbsd-amd64.tar.gz
+          commit: null
+          size: 3143820
+          sha256: sha256:27f263b65c52937b8e83015b40bcc6c2d3495cdbfe4f0dd5baa81e44ce1e19fd
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.netbsd-amd64.tar.gz
+        - name: redis_exporter-v1.24.0.netbsd-arm.tar.gz
+          commit: null
+          size: 2906213
+          sha256: sha256:8538255a476ba446487b78123fc320e6660bc48626b07d533dbb8702877bc003
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.netbsd-arm.tar.gz
+        - name: redis_exporter-v1.24.0.openbsd-386.tar.gz
+          commit: null
+          size: 2961675
+          sha256: sha256:92ac3bd3ea67bffde73db36a8ad020317ce3dae192eb5a9c43fede9e6e810e8c
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.openbsd-386.tar.gz
+        - name: redis_exporter-v1.24.0.openbsd-amd64.tar.gz
+          commit: null
+          size: 3152780
+          sha256: sha256:e1df8f05ba9c5982f1a2d3dc5e2127ecbf627f42350ef7cebda602cfd6e4ee17
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.openbsd-amd64.tar.gz
+        - name: redis_exporter-v1.24.0.solaris-amd64.tar.gz
+          commit: null
+          size: 3136328
+          sha256: sha256:bab41d2d9d982a05f3b61f7174d804a8a6c8c6c13283485bb5e5df959f2b3294
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.solaris-amd64.tar.gz
+        - name: redis_exporter-v1.24.0.windows-386.zip
+          commit: null
+          size: 3055844
+          sha256: sha256:dad3a00c939ad829e58dffe48d1c4d3ba4e67129f72e5f3d9270fd2279cf5ff3
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.windows-386.zip
+        - name: redis_exporter-v1.24.0.windows-amd64.zip
+          commit: null
+          size: 3149590
+          sha256: sha256:4f3e4354287d9502f0d2aad3a7fe25d6575e2ec9b1c066658fe5efc634bcc479
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/redis_exporter-v1.24.0.windows-amd64.zip
+        - name: sha256sums.txt
+          commit: null
+          size: 2382
+          sha256: sha256:babcc64abc64b5ce614de971aca62139a5068b6e0908d07b4914605f18b62ced
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.24.0/sha256sums.txt
+    - name: v1.23.1
+      commit: null
+      timestamp: '2021-05-06T12:09:16'
+      prerelease: false
+      files:
+        - name: redis_exporter-v1.23.1.darwin-amd64.tar.gz
+          commit: null
+          size: 3275034
+          sha256: sha256:aa5ed44c719071b1f362358396022087293e56a030545f535239500520f369e7
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.darwin-amd64.tar.gz
+        - name: redis_exporter-v1.23.1.freebsd-386.tar.gz
+          commit: null
+          size: 2968384
+          sha256: sha256:ffe0068517de165f1a14f308b781f5435e82903037956ef072ed415afbe6b011
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.freebsd-386.tar.gz
+        - name: redis_exporter-v1.23.1.freebsd-amd64.tar.gz
+          commit: null
+          size: 3151244
+          sha256: sha256:2bbce91afa0fc87b2545768477fa0002aac1884f584729317f4b14a21818ff74
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.freebsd-amd64.tar.gz
+        - name: redis_exporter-v1.23.1.freebsd-arm.tar.gz
+          commit: null
+          size: 2913163
+          sha256: sha256:52ff2ea96881d110ba9053613a63ab43179f3f6dd21daff2e2aa5278d1c30dc9
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.freebsd-arm.tar.gz
+        - name: redis_exporter-v1.23.1.illumos-amd64.tar.gz
+          commit: null
+          size: 3137443
+          sha256: sha256:30309cf2f3b053a258e8c98b5c4996bfaa2004bb07c43181849f8fa56576384a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.illumos-amd64.tar.gz
+        - name: redis_exporter-v1.23.1.linux-386.tar.gz
+          commit: null
+          size: 2963997
+          sha256: sha256:d7b8e6cf640645377ced22a279ee4270473cb6e01684027c751433d61d65440c
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.linux-386.tar.gz
+        - name: redis_exporter-v1.23.1.linux-amd64.tar.gz
+          commit: null
+          size: 3142414
+          sha256: sha256:1c5070dc432aa6557e8058f331b5935240775b12df23baf084bc36fe5c8fbd1a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.linux-amd64.tar.gz
+        - name: redis_exporter-v1.23.1.linux-arm.tar.gz
+          commit: null
+          size: 2904457
+          sha256: sha256:596aa86545f7d79b275c5e3728ff135482e2a13fe5d1f1dda44eb55ea2ba207f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.linux-arm.tar.gz
+        - name: redis_exporter-v1.23.1.linux-arm64.tar.gz
+          commit: null
+          size: 2829263
+          sha256: sha256:6be2421f40ebcf3dc178e1ecc0cbf14b0d77d2c15fc15d1cb95df063679b840a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.linux-arm64.tar.gz
+        - name: redis_exporter-v1.23.1.linux-mips64.tar.gz
+          commit: null
+          size: 2773010
+          sha256: sha256:97553f28ba0b27401a0fd18809346d9b5254eea3a7224b44458b2804a3668abf
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.linux-mips64.tar.gz
+        - name: redis_exporter-v1.23.1.linux-mips64le.tar.gz
+          commit: null
+          size: 2705377
+          sha256: sha256:87753c0fcf1b9f4299162d9f22c2594bf406489bcf651e401929987d8bea931e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.linux-mips64le.tar.gz
+        - name: redis_exporter-v1.23.1.linux-ppc64.tar.gz
+          commit: null
+          size: 2801665
+          sha256: sha256:f9c973d1226737604b90d961a0fd2d3eac8fff27a3c3690de3b0f2f6c630f61f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.linux-ppc64.tar.gz
+        - name: redis_exporter-v1.23.1.linux-ppc64le.tar.gz
+          commit: null
+          size: 2752038
+          sha256: sha256:37e37a8d974f05d2e0c8aa8024394638296cc107969c715e39806ef7719cb349
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.linux-ppc64le.tar.gz
+        - name: redis_exporter-v1.23.1.linux-s390x.tar.gz
+          commit: null
+          size: 3049193
+          sha256: sha256:04bbc20c60660b22661ea1133c67e4435fb9e6678338fe1b07b3f36340bd9bfd
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.linux-s390x.tar.gz
+        - name: redis_exporter-v1.23.1.netbsd-386.tar.gz
+          commit: null
+          size: 2957939
+          sha256: sha256:15aa3bc1bd44cc4176bd7f2517fd64b57fdcddd33683ab6120b6496633e8d6ab
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.netbsd-386.tar.gz
+        - name: redis_exporter-v1.23.1.netbsd-amd64.tar.gz
+          commit: null
+          size: 3140724
+          sha256: sha256:21191a5fe06c0c821da78a4e83d16a5c9d04be6d848f8683946e8682535c1461
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.netbsd-amd64.tar.gz
+        - name: redis_exporter-v1.23.1.netbsd-arm.tar.gz
+          commit: null
+          size: 2905651
+          sha256: sha256:751bd44b58229381a330ec4d3b55b5c7d4d4edb9d496367279c55cd8e61d72bc
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.netbsd-arm.tar.gz
+        - name: redis_exporter-v1.23.1.openbsd-386.tar.gz
+          commit: null
+          size: 2960024
+          sha256: sha256:c9373258b4263b05fab5b7834f16e15a20776f13d230505ae907e7946772c18e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.openbsd-386.tar.gz
+        - name: redis_exporter-v1.23.1.openbsd-amd64.tar.gz
+          commit: null
+          size: 3152127
+          sha256: sha256:363313439c160679c19c35fe6f1583bb084c3a6d74ac35abb4c9d9b8fff0c4cd
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.openbsd-amd64.tar.gz
+        - name: redis_exporter-v1.23.1.solaris-amd64.tar.gz
+          commit: null
+          size: 3134750
+          sha256: sha256:2ae390676e8e41b66dcd300b816a4374f63cfa111e6163b3c02dfcb29704b19b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.solaris-amd64.tar.gz
+        - name: redis_exporter-v1.23.1.windows-386.zip
+          commit: null
+          size: 3054558
+          sha256: sha256:aff389d021ae42ef22fe5d9599e5d924fcd215a4df44267b4e204a2d730f383c
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.windows-386.zip
+        - name: redis_exporter-v1.23.1.windows-amd64.zip
+          commit: null
+          size: 3148831
+          sha256: sha256:2c870dd8c95e040767b85e4dacae330b8a7cb65bd1ec93db201dc2abf9127473
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/redis_exporter-v1.23.1.windows-amd64.zip
+        - name: sha256sums.txt
+          commit: null
+          size: 2382
+          sha256: sha256:90e4b0702aad4e2bfde410ccb40bd05bc0844d8b7c22e3bc9bff1a331478e922
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.1/sha256sums.txt
+    - name: v1.23.0
+      commit: null
+      timestamp: '2021-04-24T20:02:58'
+      prerelease: false
+      files:
+        - name: redis_exporter-v1.23.0.darwin-amd64.tar.gz
+          commit: null
+          size: 3275094
+          sha256: sha256:b7cee05f81adcf842c4f16b1961f11d0507e00fb2eda6eb4c377d43f0a1e480a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.darwin-amd64.tar.gz
+        - name: redis_exporter-v1.23.0.freebsd-386.tar.gz
+          commit: null
+          size: 2967921
+          sha256: sha256:10c827cd0bad24b5c6b606003af2a931e18d96c12d97e878136c45ec6631588c
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.freebsd-386.tar.gz
+        - name: redis_exporter-v1.23.0.freebsd-amd64.tar.gz
+          commit: null
+          size: 3151729
+          sha256: sha256:9ec9470ae65a41ea8262b0020c32e0334f1b73bf1dcec3323d372ed115814e66
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.freebsd-amd64.tar.gz
+        - name: redis_exporter-v1.23.0.freebsd-arm.tar.gz
+          commit: null
+          size: 2913177
+          sha256: sha256:adb1089a2a1dd11ff2caa205489a5769e35f329eb94204cce40a45ef1ab592f5
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.freebsd-arm.tar.gz
+        - name: redis_exporter-v1.23.0.illumos-amd64.tar.gz
+          commit: null
+          size: 3137708
+          sha256: sha256:01417b076047c66fb14dc578e47ec2b4e2e5ed9ebd5f1079f6feb4f94cfeafa7
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.illumos-amd64.tar.gz
+        - name: redis_exporter-v1.23.0.linux-386.tar.gz
+          commit: null
+          size: 2964213
+          sha256: sha256:f08006d74e8770f20ee6be21b318ce81904b5fb12aaf6f5ffc6405b5c703b9e0
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.linux-386.tar.gz
+        - name: redis_exporter-v1.23.0.linux-amd64.tar.gz
+          commit: null
+          size: 3143488
+          sha256: sha256:ed6f5dc2485bd37f41b956c3d80e3e5bb4b9f0526905eff47dc02f772f09d09a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.linux-amd64.tar.gz
+        - name: redis_exporter-v1.23.0.linux-arm.tar.gz
+          commit: null
+          size: 2905904
+          sha256: sha256:0108748a3286d643a1045d60d87084f2c9f0a8dfed403c4ad48c6e32049ea1ce
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.linux-arm.tar.gz
+        - name: redis_exporter-v1.23.0.linux-arm64.tar.gz
+          commit: null
+          size: 2830341
+          sha256: sha256:d7088c5f9e63de1679bcdba971de3e4ede0512d64df3facaf4d1356acb1b46db
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.linux-arm64.tar.gz
+        - name: redis_exporter-v1.23.0.linux-mips64.tar.gz
+          commit: null
+          size: 2773221
+          sha256: sha256:c06981c723d8d993006a609ec3e42edf6375f8d0e046b4ca68e3c5fc96361a02
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.linux-mips64.tar.gz
+        - name: redis_exporter-v1.23.0.linux-mips64le.tar.gz
+          commit: null
+          size: 2706396
+          sha256: sha256:6fa86450193fe533cec67426cf003f5747ef5bfd6c7db58174e3409d1f9f0a8b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.linux-mips64le.tar.gz
+        - name: redis_exporter-v1.23.0.linux-ppc64.tar.gz
+          commit: null
+          size: 2802491
+          sha256: sha256:b273194f466795433d89d30f46d76aa4a81fcea27a49bc87741f726b814929af
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.linux-ppc64.tar.gz
+        - name: redis_exporter-v1.23.0.linux-ppc64le.tar.gz
+          commit: null
+          size: 2752372
+          sha256: sha256:b35f92cf8782af1434765c99a560c4a5c188e1e53c954cec5659ab085eb20370
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.linux-ppc64le.tar.gz
+        - name: redis_exporter-v1.23.0.linux-s390x.tar.gz
+          commit: null
+          size: 3048195
+          sha256: sha256:47f248744a9d2bf105c98d6de93507c5e4cd929f44521db65a3e876bff9e1878
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.linux-s390x.tar.gz
+        - name: redis_exporter-v1.23.0.netbsd-386.tar.gz
+          commit: null
+          size: 2958435
+          sha256: sha256:ca48542db9f350a3ab4ef4a1884a8f6082d99f9d9618280e99a1483d107dda80
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.netbsd-386.tar.gz
+        - name: redis_exporter-v1.23.0.netbsd-amd64.tar.gz
+          commit: null
+          size: 3141824
+          sha256: sha256:b995d141318ac65fd083400fd9822c412ca5e4739b43a5a748d53c3f8453147b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.netbsd-amd64.tar.gz
+        - name: redis_exporter-v1.23.0.netbsd-arm.tar.gz
+          commit: null
+          size: 2904802
+          sha256: sha256:6acee8bb5a4f92bcf02e83744834c1315943c91ee35fa270f18ca2582287a71d
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.netbsd-arm.tar.gz
+        - name: redis_exporter-v1.23.0.openbsd-386.tar.gz
+          commit: null
+          size: 2959805
+          sha256: sha256:558030fca2be51af112e16dfb76a4996aee1ddde25ea52370b12d027d133ed21
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.openbsd-386.tar.gz
+        - name: redis_exporter-v1.23.0.openbsd-amd64.tar.gz
+          commit: null
+          size: 3152508
+          sha256: sha256:513c02a622c0d48506e935787744b2e1df38dcc16b67315eba1d2dafe61b2427
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.openbsd-amd64.tar.gz
+        - name: redis_exporter-v1.23.0.solaris-amd64.tar.gz
+          commit: null
+          size: 3135865
+          sha256: sha256:4ccd5c6b8d86d464a1027a2ef6aea2d55726c17d9d114f8bb550cecf1a0749f1
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.solaris-amd64.tar.gz
+        - name: redis_exporter-v1.23.0.windows-386.zip
+          commit: null
+          size: 3054539
+          sha256: sha256:8243b2293277ff02a20f12e6dd3aec42221260730daed9806ae8d8c6aab0a7b7
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.windows-386.zip
+        - name: redis_exporter-v1.23.0.windows-amd64.zip
+          commit: null
+          size: 3148771
+          sha256: sha256:d4e385953b7a5ac56b7ffd4ee5860768cdd22fee8f6b0855c777b970700b83c1
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/redis_exporter-v1.23.0.windows-amd64.zip
+        - name: sha256sums.txt
+          commit: null
+          size: 2382
+          sha256: sha256:c8a5c2ec200b541b24fb849214eaf4a4666507bf5b3a790670190c4bf7d1313d
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.23.0/sha256sums.txt
+    - name: v1.22.0
+      commit: null
+      timestamp: '2021-04-23T01:12:19'
+      prerelease: false
+      files:
+        - name: redis_exporter-v1.22.0.darwin-amd64.tar.gz
+          commit: null
+          size: 3274771
+          sha256: sha256:0008958f579a6b7f0dada7fda87ebb09df898a188c058e1311d535d05f8b544d
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.darwin-amd64.tar.gz
+        - name: redis_exporter-v1.22.0.freebsd-386.tar.gz
+          commit: null
+          size: 2967802
+          sha256: sha256:06e83380996bbb9995b3468ffe03570bff6afbd47a5ecf864b88a73dda1539c8
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.freebsd-386.tar.gz
+        - name: redis_exporter-v1.22.0.freebsd-amd64.tar.gz
+          commit: null
+          size: 3151775
+          sha256: sha256:fe81e7998513d05a2f44a3afc16488c7c1d4566634cfda05b6533e787c60ee3e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.freebsd-amd64.tar.gz
+        - name: redis_exporter-v1.22.0.freebsd-arm.tar.gz
+          commit: null
+          size: 2913126
+          sha256: sha256:188e816c9b897dfb98222a9693c09c45d6d9331f8c97eef946b163077e028270
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.freebsd-arm.tar.gz
+        - name: redis_exporter-v1.22.0.illumos-amd64.tar.gz
+          commit: null
+          size: 3134665
+          sha256: sha256:67d4966dd854230b78f947bfe75f2c34eded706b04873c95710361ef2d70e654
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.illumos-amd64.tar.gz
+        - name: redis_exporter-v1.22.0.linux-386.tar.gz
+          commit: null
+          size: 2964114
+          sha256: sha256:1fc6b5493c2f5e5f6b1505eb2a6e9b4905b9b7f154ff5e64ee8ea3cedd52cedf
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.linux-386.tar.gz
+        - name: redis_exporter-v1.22.0.linux-amd64.tar.gz
+          commit: null
+          size: 3143004
+          sha256: sha256:82aff824ac841e25bd49b1ca3db6fbed088c2ac9052ebf6cc9c947a8141201ff
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.linux-amd64.tar.gz
+        - name: redis_exporter-v1.22.0.linux-arm.tar.gz
+          commit: null
+          size: 2905993
+          sha256: sha256:8de1d01fd0f40a6f76d35b89f9a80a72612be4a2b00942f491b892a33280b66c
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.linux-arm.tar.gz
+        - name: redis_exporter-v1.22.0.linux-arm64.tar.gz
+          commit: null
+          size: 2830310
+          sha256: sha256:533131aa1b3e20884b7de06375bc87b04284592180a65ef0c46844209f9a2f7e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.linux-arm64.tar.gz
+        - name: redis_exporter-v1.22.0.linux-mips64.tar.gz
+          commit: null
+          size: 2772937
+          sha256: sha256:9ddb0a8a6709c89ce259bbe07e8a677646d3f366115c8094bbf1c3647f5c590a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.linux-mips64.tar.gz
+        - name: redis_exporter-v1.22.0.linux-mips64le.tar.gz
+          commit: null
+          size: 2706456
+          sha256: sha256:74738abb73361e20199227d6e7e4ce18fe0674716d46c393c6bd5027e4d7b30a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.linux-mips64le.tar.gz
+        - name: redis_exporter-v1.22.0.linux-ppc64.tar.gz
+          commit: null
+          size: 2801993
+          sha256: sha256:73f7c76cb2b6ba2ed072b72a39015fcdd0ff3e63bacd7252411a439ccfc05c79
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.linux-ppc64.tar.gz
+        - name: redis_exporter-v1.22.0.linux-ppc64le.tar.gz
+          commit: null
+          size: 2752186
+          sha256: sha256:883e0c48b6fe9ad699a4fe805535b65b335c21a24bf2205d7dc51e37289329d6
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.linux-ppc64le.tar.gz
+        - name: redis_exporter-v1.22.0.linux-s390x.tar.gz
+          commit: null
+          size: 3048099
+          sha256: sha256:c9957d9706d90ef037fe7486a6cb1f912052ed0c6334eb18877b15dee76788d1
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.linux-s390x.tar.gz
+        - name: redis_exporter-v1.22.0.netbsd-386.tar.gz
+          commit: null
+          size: 2957953
+          sha256: sha256:83ed2ddce64951f4f3b96cd523da28ca48e7019aaadf9c502a391f4353733b4d
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.netbsd-386.tar.gz
+        - name: redis_exporter-v1.22.0.netbsd-amd64.tar.gz
+          commit: null
+          size: 3141904
+          sha256: sha256:6439d82e35187a239c63691d077263bab89b0d8910eede5c8b4953ffe53aae56
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.netbsd-amd64.tar.gz
+        - name: redis_exporter-v1.22.0.netbsd-arm.tar.gz
+          commit: null
+          size: 2904890
+          sha256: sha256:9bb1ea78eabc369b5afec15f72b85790ecb4b27b1e337c6515f631bbf71c6b36
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.netbsd-arm.tar.gz
+        - name: redis_exporter-v1.22.0.openbsd-386.tar.gz
+          commit: null
+          size: 2959625
+          sha256: sha256:dd0d165656fecf2431dccae29e84046a2a774f5bcf32d26d787956612cadc216
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.openbsd-386.tar.gz
+        - name: redis_exporter-v1.22.0.openbsd-amd64.tar.gz
+          commit: null
+          size: 3152637
+          sha256: sha256:25e63c2c3a6434ab12e00458f886aaf38e20e2cf262f4fcd8d1ceb91ed8fe31f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.openbsd-amd64.tar.gz
+        - name: redis_exporter-v1.22.0.solaris-amd64.tar.gz
+          commit: null
+          size: 3135433
+          sha256: sha256:4cc5b6f98e64dd964398e77f15940444ceed42cfd473eef88eb460fe0230c060
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.solaris-amd64.tar.gz
+        - name: redis_exporter-v1.22.0.windows-386.zip
+          commit: null
+          size: 3054262
+          sha256: sha256:dd6256101db8073116589f6c7997f9ca277a26b4adf08c8647311515fa6f835d
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.windows-386.zip
+        - name: redis_exporter-v1.22.0.windows-amd64.zip
+          commit: null
+          size: 3148763
+          sha256: sha256:580159ac317961d9f866353dbf530c19100ab849c0fedd0248bc565a3c2e5607
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/redis_exporter-v1.22.0.windows-amd64.zip
+        - name: sha256sums.txt
+          commit: null
+          size: 2382
+          sha256: sha256:3456fb64c0939fe56a4af0f16a7f0199c837083481fcf1be2a537907d6074c58
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.22.0/sha256sums.txt
+    - name: v1.21.0
+      commit: null
+      timestamp: '2021-04-21T01:47:50'
+      prerelease: false
+      files:
+        - name: redis_exporter-v1.21.0.darwin-amd64.tar.gz
+          commit: null
+          size: 3274670
+          sha256: sha256:01e4b67733a57fab8cc54de22eb1a2b689dd645dc986e9e4b6e916c649cc206f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.darwin-amd64.tar.gz
+        - name: redis_exporter-v1.21.0.freebsd-386.tar.gz
+          commit: null
+          size: 2966871
+          sha256: sha256:6f10d82cb256b46e916af79e8e137747ccab660aaff7b8344029ab20542892fd
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.freebsd-386.tar.gz
+        - name: redis_exporter-v1.21.0.freebsd-amd64.tar.gz
+          commit: null
+          size: 3151691
+          sha256: sha256:41dd174eebf64668df3dd89ace1b0905da8cb5787ed5cf8bc92a66cd36ac1af7
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.freebsd-amd64.tar.gz
+        - name: redis_exporter-v1.21.0.freebsd-arm.tar.gz
+          commit: null
+          size: 2912178
+          sha256: sha256:0009c7a4639f0c0bd798e1b1c89954e446e335430107ccb8adab96774546f182
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.freebsd-arm.tar.gz
+        - name: redis_exporter-v1.21.0.illumos-amd64.tar.gz
+          commit: null
+          size: 3137608
+          sha256: sha256:ca95bb13f09fe30c4dae3ab65e3865ee1525e7a10de4d7d7b76e701864f99606
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.illumos-amd64.tar.gz
+        - name: redis_exporter-v1.21.0.linux-386.tar.gz
+          commit: null
+          size: 2963602
+          sha256: sha256:92e2083a6e7af62ba5999b37374b456bdb4d683895c28d976769789dbd39adc9
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.linux-386.tar.gz
+        - name: redis_exporter-v1.21.0.linux-amd64.tar.gz
+          commit: null
+          size: 3142371
+          sha256: sha256:6a25f5a1eac981c9ff42525a69c9c02bb47cd84a0464fa202b004740d8015866
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.linux-amd64.tar.gz
+        - name: redis_exporter-v1.21.0.linux-arm.tar.gz
+          commit: null
+          size: 2905601
+          sha256: sha256:d9bbe93e92c98ca170488113656634701adff55a4f6404455f837a240c07e932
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.linux-arm.tar.gz
+        - name: redis_exporter-v1.21.0.linux-arm64.tar.gz
+          commit: null
+          size: 2829276
+          sha256: sha256:9cd2ed293bd83856a10ba1afed5b0d390146b1058e0f0eb5a5a3a45d9ede71d8
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.linux-arm64.tar.gz
+        - name: redis_exporter-v1.21.0.linux-mips64.tar.gz
+          commit: null
+          size: 2771769
+          sha256: sha256:1e5e70beef22bc2df84e0a0b39197f96d34944c4c95193dc705373c04babf9ce
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.linux-mips64.tar.gz
+        - name: redis_exporter-v1.21.0.linux-mips64le.tar.gz
+          commit: null
+          size: 2705561
+          sha256: sha256:ee0ea99bd26dfcfa1ce97e9d73cb95246a9bb208bac447005816a6b413c528c7
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.linux-mips64le.tar.gz
+        - name: redis_exporter-v1.21.0.linux-ppc64.tar.gz
+          commit: null
+          size: 2800592
+          sha256: sha256:61cf0c5435d0c0df6334b5ee2d89ddfe47e1d1220eb7ed2ca812a06876394a0f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.linux-ppc64.tar.gz
+        - name: redis_exporter-v1.21.0.linux-ppc64le.tar.gz
+          commit: null
+          size: 2751885
+          sha256: sha256:512c1771ce428b926d1455df4b74b4e2034f92a44ba227eedd001243409e33be
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.linux-ppc64le.tar.gz
+        - name: redis_exporter-v1.21.0.linux-s390x.tar.gz
+          commit: null
+          size: 3046974
+          sha256: sha256:3f24304be753f50724731571aec8720504c1e045a91ca8717e55cfea6e7dab32
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.linux-s390x.tar.gz
+        - name: redis_exporter-v1.21.0.netbsd-386.tar.gz
+          commit: null
+          size: 2957620
+          sha256: sha256:97f4d6ca4d40e3ba6788aa5cb9c19d0724d4e480d14ce11b36a7e52a8a3f3c6f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.netbsd-386.tar.gz
+        - name: redis_exporter-v1.21.0.netbsd-amd64.tar.gz
+          commit: null
+          size: 3141303
+          sha256: sha256:5b119a87cde07ab383c14f30d660343abe7c2380546756790b463fbeef8f3222
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.netbsd-amd64.tar.gz
+        - name: redis_exporter-v1.21.0.netbsd-arm.tar.gz
+          commit: null
+          size: 2905004
+          sha256: sha256:bb6f3fd025e0ff993822e76d154996d7e01db9e10223086c3e367bd33c9b58db
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.netbsd-arm.tar.gz
+        - name: redis_exporter-v1.21.0.openbsd-386.tar.gz
+          commit: null
+          size: 2958441
+          sha256: sha256:92562875ada87a394ad9cd019f49458308802af42b18df410457dd8669bb10c7
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.openbsd-386.tar.gz
+        - name: redis_exporter-v1.21.0.openbsd-amd64.tar.gz
+          commit: null
+          size: 3151778
+          sha256: sha256:da91b54154d2cb9efc893ba4f8a8d7c94bd775a897f7bf5c6c6bb6af20404cbd
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.openbsd-amd64.tar.gz
+        - name: redis_exporter-v1.21.0.solaris-amd64.tar.gz
+          commit: null
+          size: 3134233
+          sha256: sha256:63f6e9660660e4453663c10cc78a9114e88db4518a16422f8e95e177e5025316
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.solaris-amd64.tar.gz
+        - name: redis_exporter-v1.21.0.windows-386.zip
+          commit: null
+          size: 3050067
+          sha256: sha256:a4c47f1422831dee9341754a2d7e2bdb20c1ffa1de5c88c73838b64cc9cd09d5
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.windows-386.zip
+        - name: redis_exporter-v1.21.0.windows-amd64.zip
+          commit: null
+          size: 3144708
+          sha256: sha256:e6d70a59c04bd1125e4a56895531ab8478ae8488a7d88aefda060a6a78755011
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/redis_exporter-v1.21.0.windows-amd64.zip
+        - name: sha256sums.txt
+          commit: null
+          size: 2382
+          sha256: sha256:83bdc7dd61960cc702dda5be41a3c192330073638f86ae0a95fa1b5fe3306bd6
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.21.0/sha256sums.txt
+    - name: v1.20.0
+      commit: null
+      timestamp: '2021-03-22T13:24:45'
+      prerelease: false
+      files:
+        - name: redis_exporter-v1.20.0.darwin-amd64.tar.gz
+          commit: null
+          size: 3273972
+          sha256: sha256:26c2b2a4f22152a8026e508acd9098e4b5b5a55aa35df550742d204a3336233f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.darwin-amd64.tar.gz
+        - name: redis_exporter-v1.20.0.freebsd-386.tar.gz
+          commit: null
+          size: 2967043
+          sha256: sha256:7d83b3dd5ec7891afa6c2b9de1a8be1085bfb5b1aa04b3c86e600b7c40868713
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.freebsd-386.tar.gz
+        - name: redis_exporter-v1.20.0.freebsd-amd64.tar.gz
+          commit: null
+          size: 3149534
+          sha256: sha256:d614d4bbb7cbe4fa5b8f9977d52badfb67e86cf364e8f979dfa985411144cdfd
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.freebsd-amd64.tar.gz
+        - name: redis_exporter-v1.20.0.freebsd-arm.tar.gz
+          commit: null
+          size: 2912102
+          sha256: sha256:65ebe11c6389ae69e795dd810a4933ed621138b870f07ac212d911646bb5610a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.freebsd-arm.tar.gz
+        - name: redis_exporter-v1.20.0.illumos-amd64.tar.gz
+          commit: null
+          size: 3136026
+          sha256: sha256:884327831504c451993d624bbb8039c21e7160324d440172c16784b2672fcdde
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.illumos-amd64.tar.gz
+        - name: redis_exporter-v1.20.0.linux-386.tar.gz
+          commit: null
+          size: 2962719
+          sha256: sha256:19d6464eddca1c876d7bb0aa1858313f22574f06c16ca308db9c947867b54e7a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.linux-386.tar.gz
+        - name: redis_exporter-v1.20.0.linux-amd64.tar.gz
+          commit: null
+          size: 3141985
+          sha256: sha256:dc270f87394afdc0ffb4f33129b0214bc583b947a3859e0506030f369d558459
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.linux-amd64.tar.gz
+        - name: redis_exporter-v1.20.0.linux-arm.tar.gz
+          commit: null
+          size: 2904369
+          sha256: sha256:67ecb6b836f394ce4de486452fcce1117b6de534f54f1e9216b2e5c2456455e4
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.linux-arm.tar.gz
+        - name: redis_exporter-v1.20.0.linux-arm64.tar.gz
+          commit: null
+          size: 2828122
+          sha256: sha256:3d05b2caf4eb8e97353cd6a10ef9c39ca18e3a4d3e06c78ab363eb44430a60a5
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.linux-arm64.tar.gz
+        - name: redis_exporter-v1.20.0.linux-mips64.tar.gz
+          commit: null
+          size: 2771803
+          sha256: sha256:6c97ccae3bb4084b8f18bf1d34e58fb081e8fc6da1a79292621f9196e6761233
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.linux-mips64.tar.gz
+        - name: redis_exporter-v1.20.0.linux-mips64le.tar.gz
+          commit: null
+          size: 2704739
+          sha256: sha256:590c676b4dc7f50089587feec0bd3fa875d9f05fb93c4e4b0b17a69115222d8e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.linux-mips64le.tar.gz
+        - name: redis_exporter-v1.20.0.linux-ppc64.tar.gz
+          commit: null
+          size: 2800308
+          sha256: sha256:b7456f9824878656d4cff74355e32b5e3a4bca7af7b2e7673c3a91a6c77547eb
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.linux-ppc64.tar.gz
+        - name: redis_exporter-v1.20.0.linux-ppc64le.tar.gz
+          commit: null
+          size: 2750537
+          sha256: sha256:782283bb768355229645f400e4b4da891be630d7b1e91094956a75206f1d2a56
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.linux-ppc64le.tar.gz
+        - name: redis_exporter-v1.20.0.linux-s390x.tar.gz
+          commit: null
+          size: 3048160
+          sha256: sha256:a0a9652abc0d0eea716e26888bac2809176c33644363d33c236b3d54b735b05e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.linux-s390x.tar.gz
+        - name: redis_exporter-v1.20.0.netbsd-386.tar.gz
+          commit: null
+          size: 2956955
+          sha256: sha256:aaea68218600219f33ec2de08f008eb6f079955222475c7a6a01f7e2a44bcef9
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.netbsd-386.tar.gz
+        - name: redis_exporter-v1.20.0.netbsd-amd64.tar.gz
+          commit: null
+          size: 3140148
+          sha256: sha256:006f0dd7b4929a6ec5648ae0e48f38d4e1fe1a2b69fda94d75d5733ba2cdc252
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.netbsd-amd64.tar.gz
+        - name: redis_exporter-v1.20.0.netbsd-arm.tar.gz
+          commit: null
+          size: 2905144
+          sha256: sha256:b298e0dc9115e9fb029d3d60f4e410240517bc8189356564de306cdc23f9037c
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.netbsd-arm.tar.gz
+        - name: redis_exporter-v1.20.0.openbsd-386.tar.gz
+          commit: null
+          size: 2958026
+          sha256: sha256:abc2218990ecce8aabc34bab9a34792caf027b5012d349dd676847887c658953
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.openbsd-386.tar.gz
+        - name: redis_exporter-v1.20.0.openbsd-amd64.tar.gz
+          commit: null
+          size: 3150580
+          sha256: sha256:34b3463a19985d326ff2dc0ae44c2b66bd9c7473fa4d60e2b007416710dfc3ef
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.openbsd-amd64.tar.gz
+        - name: redis_exporter-v1.20.0.solaris-amd64.tar.gz
+          commit: null
+          size: 3134116
+          sha256: sha256:ca6ec0a453ef021ac7bf4821a04dd111955fa631ec9c8c82b1e0956897e7cec9
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.solaris-amd64.tar.gz
+        - name: redis_exporter-v1.20.0.windows-386.zip
+          commit: null
+          size: 3050455
+          sha256: sha256:346796a47d08ea78dca782fc7d129be00090546d1ab4cc69c15f786a5cddd899
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.windows-386.zip
+        - name: redis_exporter-v1.20.0.windows-amd64.zip
+          commit: null
+          size: 3144680
+          sha256: sha256:6fa486677dcb7946eaebc2ac484d0eb5096b62724e9c592264c8174990cf84df
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/redis_exporter-v1.20.0.windows-amd64.zip
+        - name: sha256sums.txt
+          commit: null
+          size: 2382
+          sha256: sha256:dc8704f51d37bf2c465f018d68c0335c1b828d81ffaf3a35abde9261e10fa8bb
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.20.0/sha256sums.txt
+    - name: v1.19.0
+      commit: null
+      timestamp: '2021-03-22T00:55:27'
+      prerelease: false
+      files:
+        - name: redis_exporter-v1.19.0.darwin-amd64.tar.gz
+          commit: null
+          size: 3273635
+          sha256: sha256:70dc44724f5f79ac84b18d8b182f93dd0360dae632d3ca7639cab39cb23b68ff
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.darwin-amd64.tar.gz
+        - name: redis_exporter-v1.19.0.freebsd-386.tar.gz
+          commit: null
+          size: 2966963
+          sha256: sha256:3ec903b827e4a202aeb7f4ef1b5367d40b0297f86106bbb015a18d4430f8d9ce
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.freebsd-386.tar.gz
+        - name: redis_exporter-v1.19.0.freebsd-amd64.tar.gz
+          commit: null
+          size: 3149833
+          sha256: sha256:6603f2c7e33a1bce74ae6462fbaf30290e5038b2b6915d439261b069b075c851
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.freebsd-amd64.tar.gz
+        - name: redis_exporter-v1.19.0.freebsd-arm.tar.gz
+          commit: null
+          size: 2912344
+          sha256: sha256:8c2cdda6d68e41583779e1f3b2a7c5bdf9e4dada380fe1fb09b10e8cf9dd7bcb
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.freebsd-arm.tar.gz
+        - name: redis_exporter-v1.19.0.illumos-amd64.tar.gz
+          commit: null
+          size: 3136398
+          sha256: sha256:85df559a8e485489788a7a8bdb2aa7344d77495e6ac902cbf6b3c724da69b174
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.illumos-amd64.tar.gz
+        - name: redis_exporter-v1.19.0.linux-386.tar.gz
+          commit: null
+          size: 2963527
+          sha256: sha256:7634e7bd676df6dbeb7def0583a7fb6753412bc29a82f0ea2f7cf3f418ca96cb
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.linux-386.tar.gz
+        - name: redis_exporter-v1.19.0.linux-amd64.tar.gz
+          commit: null
+          size: 3142707
+          sha256: sha256:172cdcd00317bb9a88a85a92a5b8861bc8fabaa7b02bfa92bd6e0a55320e5db1
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.linux-amd64.tar.gz
+        - name: redis_exporter-v1.19.0.linux-arm.tar.gz
+          commit: null
+          size: 2903985
+          sha256: sha256:3ded20d023a9ee93ef7a8a5ba25253cb2b03aa5dfa25a0c92bf65de137457261
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.linux-arm.tar.gz
+        - name: redis_exporter-v1.19.0.linux-arm64.tar.gz
+          commit: null
+          size: 2829712
+          sha256: sha256:bbc0879b88f4a6243845f9c2c56644866adce57adaa5810d4d4e6b5eb8830cf3
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.linux-arm64.tar.gz
+        - name: redis_exporter-v1.19.0.linux-mips64.tar.gz
+          commit: null
+          size: 2771810
+          sha256: sha256:850814d534572927fd7b0640d3442986c5ddf2a294d963ae01f5445fa9ea6c5d
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.linux-mips64.tar.gz
+        - name: redis_exporter-v1.19.0.linux-mips64le.tar.gz
+          commit: null
+          size: 2704706
+          sha256: sha256:23d663e67ac215a230e68af14d83b77106ae5973e7a229accc00090698fbf06b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.linux-mips64le.tar.gz
+        - name: redis_exporter-v1.19.0.linux-ppc64.tar.gz
+          commit: null
+          size: 2800489
+          sha256: sha256:8fe7e123c0d97bfffc354efc0fff12f10b2f850094aecbc99954cc0e65f21138
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.linux-ppc64.tar.gz
+        - name: redis_exporter-v1.19.0.linux-ppc64le.tar.gz
+          commit: null
+          size: 2750656
+          sha256: sha256:b768e558db60a4040e5680ff62baa4ae14b81bc0a919712e1901d9df93ea09cd
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.linux-ppc64le.tar.gz
+        - name: redis_exporter-v1.19.0.linux-s390x.tar.gz
+          commit: null
+          size: 3047293
+          sha256: sha256:81a6cbe3fe14ac35497789fd3884a48d0f28b5562d40372376abb8241c308bad
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.linux-s390x.tar.gz
+        - name: redis_exporter-v1.19.0.netbsd-386.tar.gz
+          commit: null
+          size: 2957582
+          sha256: sha256:644e6f2d22d78587ee4cd9c35577c178f0677197784f670baf2459542c433505
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.netbsd-386.tar.gz
+        - name: redis_exporter-v1.19.0.netbsd-amd64.tar.gz
+          commit: null
+          size: 3141334
+          sha256: sha256:b6eef6aac62ded26c58809b87fe129decd8eac95b2ae6c29e1dd525d3fa7e8a6
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.netbsd-amd64.tar.gz
+        - name: redis_exporter-v1.19.0.netbsd-arm.tar.gz
+          commit: null
+          size: 2904045
+          sha256: sha256:4588acf00944d21985795480b764d736a0fb28c6b433aeb7b505e0ca9c3d08b2
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.netbsd-arm.tar.gz
+        - name: redis_exporter-v1.19.0.openbsd-386.tar.gz
+          commit: null
+          size: 2959342
+          sha256: sha256:e61b42b6940b1f7f98fa5732b23198d2d5e5474e47a791d6ef7e011f46deb939
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.openbsd-386.tar.gz
+        - name: redis_exporter-v1.19.0.openbsd-amd64.tar.gz
+          commit: null
+          size: 3150661
+          sha256: sha256:a84f0c11d3b0d6e086c7a39ff34d6d808f14826ac4570bcde8855e799177fa95
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.openbsd-amd64.tar.gz
+        - name: redis_exporter-v1.19.0.solaris-amd64.tar.gz
+          commit: null
+          size: 3134446
+          sha256: sha256:81d888bc2b130a1221e3898d0f92971df93caf7ce15736ae760bf7ca5b493596
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.solaris-amd64.tar.gz
+        - name: redis_exporter-v1.19.0.windows-386.zip
+          commit: null
+          size: 3050445
+          sha256: sha256:b69e5b903a34b2c04277cf652ef18b858cab726906fb780f29a217307f5b898a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.windows-386.zip
+        - name: redis_exporter-v1.19.0.windows-amd64.zip
+          commit: null
+          size: 3144679
+          sha256: sha256:e1487146dbbe42d70ddffe2c612fbe46c9b69e2e37faa3a9eebfd96c38cf856a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/redis_exporter-v1.19.0.windows-amd64.zip
+        - name: sha256sums.txt
+          commit: null
+          size: 2382
+          sha256: sha256:8fc5fcd1991808b751a4a9ccf6cd827625ad2d3f7c7f60cb1802f86524a7b77d
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.19.0/sha256sums.txt
+    - name: v1.18.0
+      commit: null
+      timestamp: '2021-03-11T03:26:53'
+      prerelease: false
+      files:
+        - name: redis_exporter-v1.18.0.darwin-amd64.tar.gz
+          commit: null
+          size: 3272262
+          sha256: sha256:a89d371a355851d672d5ca02b6549fc753b8cf6c68385a6f633892f93ea31f3f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.darwin-amd64.tar.gz
+        - name: redis_exporter-v1.18.0.freebsd-386.tar.gz
+          commit: null
+          size: 2966260
+          sha256: sha256:df2077d218592d298159bf88cbfb377f076a10cc40d5c7580caaac9ce069ef10
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.freebsd-386.tar.gz
+        - name: redis_exporter-v1.18.0.freebsd-amd64.tar.gz
+          commit: null
+          size: 3150258
+          sha256: sha256:ae5efeea7f90a022007c67f7ed6d7ddae8e459f3b3380b0b3bda0f8b95fcfeec
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.freebsd-amd64.tar.gz
+        - name: redis_exporter-v1.18.0.freebsd-arm.tar.gz
+          commit: null
+          size: 2912206
+          sha256: sha256:a0f063306a1c0ba2f6565abe4e1ab79e593028a1207d4b4fbab2877b5872eb6a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.freebsd-arm.tar.gz
+        - name: redis_exporter-v1.18.0.illumos-amd64.tar.gz
+          commit: null
+          size: 3137061
+          sha256: sha256:d1bdbd876c73aec51e5141909859d9a8718adbad2a0c8dc511c04cf53a4dc630
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.illumos-amd64.tar.gz
+        - name: redis_exporter-v1.18.0.linux-386.tar.gz
+          commit: null
+          size: 2962681
+          sha256: sha256:e29f42189aefe841c10502a9ff4d2d814d0693f458e6d6b25ed3d69901deff26
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.linux-386.tar.gz
+        - name: redis_exporter-v1.18.0.linux-amd64.tar.gz
+          commit: null
+          size: 3142649
+          sha256: sha256:8f235b8891dc14c40c9d1915feb7930741a5aeb4385b9790e95375027e6b88d8
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.linux-amd64.tar.gz
+        - name: redis_exporter-v1.18.0.linux-arm.tar.gz
+          commit: null
+          size: 2904369
+          sha256: sha256:4d21a5f85c5f3ae3bd6769b1ab441d19e5f1c77d7ec70c202e6ab858a7012e8c
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.linux-arm.tar.gz
+        - name: redis_exporter-v1.18.0.linux-arm64.tar.gz
+          commit: null
+          size: 2828438
+          sha256: sha256:1b13ee932dd4d9336543388e04dde2c6fdd43f3e443774e37ed301ee5fc7f61c
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.linux-arm64.tar.gz
+        - name: redis_exporter-v1.18.0.linux-mips64.tar.gz
+          commit: null
+          size: 2770409
+          sha256: sha256:25991f6dc2eda6dd225a63a8c3689c6ac4b578f4a6ae02603c7568c1ed278fc0
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.linux-mips64.tar.gz
+        - name: redis_exporter-v1.18.0.linux-mips64le.tar.gz
+          commit: null
+          size: 2704194
+          sha256: sha256:88e70a045515afcc5775750f4b2637471523ee44151cc853459110047e9916c4
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.linux-mips64le.tar.gz
+        - name: redis_exporter-v1.18.0.linux-ppc64.tar.gz
+          commit: null
+          size: 2799083
+          sha256: sha256:016fd96b735208bff565c32bb5d23e7d5372630295470a1479e09e33e6d427d5
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.linux-ppc64.tar.gz
+        - name: redis_exporter-v1.18.0.linux-ppc64le.tar.gz
+          commit: null
+          size: 2751080
+          sha256: sha256:afeb05866fa401044936dd6ead3c448a69c147701e436453e62bcb9b7e75cf9a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.linux-ppc64le.tar.gz
+        - name: redis_exporter-v1.18.0.linux-s390x.tar.gz
+          commit: null
+          size: 3046081
+          sha256: sha256:418b7e7e9b9a94dbc3605fe191bc71c792b4767fd81213ba1192494d62438852
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.linux-s390x.tar.gz
+        - name: redis_exporter-v1.18.0.netbsd-386.tar.gz
+          commit: null
+          size: 2955745
+          sha256: sha256:2ecb2f0f22d283105271d94967662ab0018b97fdfee76a0867132d74a9d48af7
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.netbsd-386.tar.gz
+        - name: redis_exporter-v1.18.0.netbsd-amd64.tar.gz
+          commit: null
+          size: 3141806
+          sha256: sha256:f74b2c77efd121e98f7fc1ff32d8cb1eaf271b61f54a657553c37a91497e7f8d
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.netbsd-amd64.tar.gz
+        - name: redis_exporter-v1.18.0.netbsd-arm.tar.gz
+          commit: null
+          size: 2904155
+          sha256: sha256:33d354dee404249dbf9e932cfdf7692f840db1d49bb6eafd2efdc8f431dc71a7
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.netbsd-arm.tar.gz
+        - name: redis_exporter-v1.18.0.openbsd-386.tar.gz
+          commit: null
+          size: 2958290
+          sha256: sha256:91c3347a1084107915285a6a2e6066aad1fde8a5c4dd59639fe167af60137a13
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.openbsd-386.tar.gz
+        - name: redis_exporter-v1.18.0.openbsd-amd64.tar.gz
+          commit: null
+          size: 3149904
+          sha256: sha256:a99b7084af62147c2f19d49cd91e9cd6028846d3215b0e20b23a28a405f78800
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.openbsd-amd64.tar.gz
+        - name: redis_exporter-v1.18.0.solaris-amd64.tar.gz
+          commit: null
+          size: 3132720
+          sha256: sha256:f8ce29a8cdaa3bcc70ae365d0b9d63613bbddab65e1ca7aa35a18443225f4f40
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.solaris-amd64.tar.gz
+        - name: redis_exporter-v1.18.0.windows-386.zip
+          commit: null
+          size: 3048115
+          sha256: sha256:4b290dc6bcb44ac00df5fd89bc09a5f057cc31c6162dff85fc999fe6551508f1
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.windows-386.zip
+        - name: redis_exporter-v1.18.0.windows-amd64.zip
+          commit: null
+          size: 3144230
+          sha256: sha256:91dc8dc181f07d9c03a5ed8e2268cdb716812c1c82590a8fa2af5edb36919b66
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/redis_exporter-v1.18.0.windows-amd64.zip
+        - name: sha256sums.txt
+          commit: null
+          size: 2382
+          sha256: sha256:ea4db28ac1d996687f3b0b7ffecb9d20a4cfedb10a87c9db6fb1014f06877df8
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.18.0/sha256sums.txt
+    - name: v1.17.1
+      commit: null
+      timestamp: '2021-02-20T13:13:48'
+      prerelease: false
+      files:
+        - name: redis_exporter-v1.17.1.darwin-amd64.tar.gz
+          commit: null
+          size: 3272320
+          sha256: sha256:687d8e8e0fcb38996381c6ee21388fb7c0b1426b18b836edf4f85a60548121db
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.darwin-amd64.tar.gz
+        - name: redis_exporter-v1.17.1.freebsd-386.tar.gz
+          commit: null
+          size: 2965675
+          sha256: sha256:4d41c8f84b5f8ebe6d6453e09c4d0f3e6ad197fe0b83a12c7629d81f8eb61e84
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.freebsd-386.tar.gz
+        - name: redis_exporter-v1.17.1.freebsd-amd64.tar.gz
+          commit: null
+          size: 3149727
+          sha256: sha256:505a49848037efb01989244eba5ec85b006c426b8e701d38abaaef88d1ce58e4
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.freebsd-amd64.tar.gz
+        - name: redis_exporter-v1.17.1.freebsd-arm.tar.gz
+          commit: null
+          size: 2911017
+          sha256: sha256:b0b8d55d1c55b34ed69796be70528361730e101f44c5fe6bc2b64f2b38101da7
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.freebsd-arm.tar.gz
+        - name: redis_exporter-v1.17.1.illumos-amd64.tar.gz
+          commit: null
+          size: 3135994
+          sha256: sha256:36ef7bbd5c079c7b1282630d32fbca60b121772f302c188664cf5b7089a6e34b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.illumos-amd64.tar.gz
+        - name: redis_exporter-v1.17.1.linux-386.tar.gz
+          commit: null
+          size: 2962616
+          sha256: sha256:a44598a8f9f82cd4ac9af8bab67c22620ab79a5b2607be1ceb17b4546f7d742f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.linux-386.tar.gz
+        - name: redis_exporter-v1.17.1.linux-amd64.tar.gz
+          commit: null
+          size: 3141239
+          sha256: sha256:d424d0524867a1fc503e7335f0856d72f125a4331b759bc3c61cdcbbb80ae50e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.linux-amd64.tar.gz
+        - name: redis_exporter-v1.17.1.linux-arm.tar.gz
+          commit: null
+          size: 2903203
+          sha256: sha256:1b1cdec9c0009be1fc77cf2be992b885e744c26e1a83f5c3331769ee97c9a20e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.linux-arm.tar.gz
+        - name: redis_exporter-v1.17.1.linux-arm64.tar.gz
+          commit: null
+          size: 2828123
+          sha256: sha256:aabb2e3bcf15f866fc8d9e6a9dbcebec26a80eb506b6cdb19a1f1cd1de386533
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.linux-arm64.tar.gz
+        - name: redis_exporter-v1.17.1.linux-mips64.tar.gz
+          commit: null
+          size: 2771703
+          sha256: sha256:7c132529de657889332082aa4431e28ed3150a52703cabb3e2f92f9dae960725
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.linux-mips64.tar.gz
+        - name: redis_exporter-v1.17.1.linux-mips64le.tar.gz
+          commit: null
+          size: 2703615
+          sha256: sha256:f9b6b472c976d5ac1da145e5619fe5a9ba0a382f2f7ba159e0f0fe15d1df05be
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.linux-mips64le.tar.gz
+        - name: redis_exporter-v1.17.1.linux-ppc64.tar.gz
+          commit: null
+          size: 2800281
+          sha256: sha256:847cc4a8440f56aebf989ad7177c53b69e6e213e87ff07016ff9453d70149efd
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.linux-ppc64.tar.gz
+        - name: redis_exporter-v1.17.1.linux-ppc64le.tar.gz
+          commit: null
+          size: 2750555
+          sha256: sha256:a4ed6a1a3ef75293c0eb98677bfc82e69682f6ad7c41a09dabd52bc797ff93fb
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.linux-ppc64le.tar.gz
+        - name: redis_exporter-v1.17.1.linux-s390x.tar.gz
+          commit: null
+          size: 3046088
+          sha256: sha256:1cf93aa7188b6afff3085de5da643d56d86339fc2d012e69203557c61e5076a6
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.linux-s390x.tar.gz
+        - name: redis_exporter-v1.17.1.netbsd-386.tar.gz
+          commit: null
+          size: 2955357
+          sha256: sha256:8aad51517868ca46668bc9ff22d682b4f89b3dc6f86257c2b77afee57e0dcc81
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.netbsd-386.tar.gz
+        - name: redis_exporter-v1.17.1.netbsd-amd64.tar.gz
+          commit: null
+          size: 3139875
+          sha256: sha256:f61c58a3a4e44667987832e2b8c36aca1eef7e01e1f62af25f2c09a5debd862b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.netbsd-amd64.tar.gz
+        - name: redis_exporter-v1.17.1.netbsd-arm.tar.gz
+          commit: null
+          size: 2903262
+          sha256: sha256:cd661561cfdab87901df4e46fc341164f80874e68cab9bce3982ac919539a46f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.netbsd-arm.tar.gz
+        - name: redis_exporter-v1.17.1.openbsd-386.tar.gz
+          commit: null
+          size: 2957346
+          sha256: sha256:088f69ab92df07179e5582f30f4c4113baf9a10eaa8c2c422c70308803d588c2
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.openbsd-386.tar.gz
+        - name: redis_exporter-v1.17.1.openbsd-amd64.tar.gz
+          commit: null
+          size: 3148230
+          sha256: sha256:775a82b441dc04bdd109f90706f9d5dcbe09f81f3c4c8688d80fa461ff45d780
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.openbsd-amd64.tar.gz
+        - name: redis_exporter-v1.17.1.solaris-amd64.tar.gz
+          commit: null
+          size: 3133430
+          sha256: sha256:056c460ac62e6db1bfc3488cc946d8e439a0a63c30a27c46425f7f46d250705b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.solaris-amd64.tar.gz
+        - name: redis_exporter-v1.17.1.windows-386.zip
+          commit: null
+          size: 3047570
+          sha256: sha256:272ab0af142593d2cfe270549fc55ed8f2ca5b5fc3338418bbb4c8fd41aa2cc5
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.windows-386.zip
+        - name: redis_exporter-v1.17.1.windows-amd64.zip
+          commit: null
+          size: 3140861
+          sha256: sha256:2bc4eea6124e334b87794dc83d93f01a38f2d13dee5e1cb6508611b9a143152a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/redis_exporter-v1.17.1.windows-amd64.zip
+        - name: sha256sums.txt
+          commit: null
+          size: 2382
+          sha256: sha256:5f57c7e66e8f0aeb28a356c53b4d16f424639e6387865d4298fb8ce99b72b8b8
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.1/sha256sums.txt
+    - name: v1.17.0
+      commit: null
+      timestamp: '2021-02-11T15:25:34'
+      prerelease: false
+      files:
+        - name: redis_exporter-v1.17.0.darwin-amd64.tar.gz
+          commit: null
+          size: 3423696
+          sha256: sha256:4c1cacbb5142f0bdf9147d8371fe1c728e1d48b3fe5c59039b2dd2cc71bdfe8c
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.darwin-amd64.tar.gz
+        - name: redis_exporter-v1.17.0.freebsd-386.tar.gz
+          commit: null
+          size: 3071321
+          sha256: sha256:e595d104364c2081eeea0ac16d8f961b2a932ea7f9364d58fb37546aef808403
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.freebsd-386.tar.gz
+        - name: redis_exporter-v1.17.0.freebsd-amd64.tar.gz
+          commit: null
+          size: 3273411
+          sha256: sha256:04bff0d4d50b0934f06870211b6ab1cf5c561b0385dffceb80148272f5e5f391
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.freebsd-amd64.tar.gz
+        - name: redis_exporter-v1.17.0.freebsd-arm.tar.gz
+          commit: null
+          size: 3012239
+          sha256: sha256:085648e000bf3f5de0ee3461cbc38451b7de264a42c294a0af9fe1fd59168ef4
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.freebsd-arm.tar.gz
+        - name: redis_exporter-v1.17.0.illumos-amd64.tar.gz
+          commit: null
+          size: 3258754
+          sha256: sha256:47a5952b91d6c25953e21a65a35dfd572caf3222fb062c9c9569fa86fbdf2cff
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.illumos-amd64.tar.gz
+        - name: redis_exporter-v1.17.0.linux-386.tar.gz
+          commit: null
+          size: 3070279
+          sha256: sha256:cab7f7b6d4af076c77e1e6a27cdcb2f8280663c607f09d9ca17af8d30fbde8b2
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.linux-386.tar.gz
+        - name: redis_exporter-v1.17.0.linux-amd64.tar.gz
+          commit: null
+          size: 3267325
+          sha256: sha256:cdbc742c03ae28833600c2d4f058be21530d51a690a064a2fe453ece38186798
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.linux-amd64.tar.gz
+        - name: redis_exporter-v1.17.0.linux-arm.tar.gz
+          commit: null
+          size: 3007022
+          sha256: sha256:50454c8fdf81c2bb001aefbba233700e6ed64ce5a449325e0a9119c17fe86be1
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.linux-arm.tar.gz
+        - name: redis_exporter-v1.17.0.linux-arm64.tar.gz
+          commit: null
+          size: 2949448
+          sha256: sha256:15df84b754ccc46780635796b30ef242bd13a9897b039caa4fed12bf2f639e37
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.linux-arm64.tar.gz
+        - name: redis_exporter-v1.17.0.linux-mips64.tar.gz
+          commit: null
+          size: 2884087
+          sha256: sha256:f594a29a081ceef542ea1b5ffff60eb9bf92672d20fe9a849a088791d0a50ac3
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.linux-mips64.tar.gz
+        - name: redis_exporter-v1.17.0.linux-mips64le.tar.gz
+          commit: null
+          size: 2821012
+          sha256: sha256:45fd16960b77ded739cfe8848b2b1a84c1e1a8d080399b469bfba766e2afc763
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.linux-mips64le.tar.gz
+        - name: redis_exporter-v1.17.0.linux-ppc64.tar.gz
+          commit: null
+          size: 2925100
+          sha256: sha256:c2a56a42a86d6dd326a3f8bfdb6dccb216fb68a3d23911163c24413b277a4a33
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.linux-ppc64.tar.gz
+        - name: redis_exporter-v1.17.0.linux-ppc64le.tar.gz
+          commit: null
+          size: 2882504
+          sha256: sha256:3c82a5f85c0f5fcd964e2c391f71ea401bab79f0cd3002020e202097db640eca
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.linux-ppc64le.tar.gz
+        - name: redis_exporter-v1.17.0.linux-s390x.tar.gz
+          commit: null
+          size: 3181105
+          sha256: sha256:7cc5a2fd5b76243fed8baaf9fcde262bcf0b17e49b69dfc2e1e672b8c1ac68c0
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.linux-s390x.tar.gz
+        - name: redis_exporter-v1.17.0.netbsd-386.tar.gz
+          commit: null
+          size: 3060358
+          sha256: sha256:5b708295d3613419eda55ec311a5eaf9d4b72f19ffe18347fdffa7c2f48397f3
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.netbsd-386.tar.gz
+        - name: redis_exporter-v1.17.0.netbsd-amd64.tar.gz
+          commit: null
+          size: 3261203
+          sha256: sha256:385a609d2db3af9ba7bbf3ccc40b6270cd8932517150151686c9e2c6db1248fd
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.netbsd-amd64.tar.gz
+        - name: redis_exporter-v1.17.0.netbsd-arm.tar.gz
+          commit: null
+          size: 3003811
+          sha256: sha256:3ace095325eaff612c1f23a820c77192092203f3cb40e38d17eb25e74b2c5e6b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.netbsd-arm.tar.gz
+        - name: redis_exporter-v1.17.0.openbsd-386.tar.gz
+          commit: null
+          size: 3062930
+          sha256: sha256:e71531818531e75a2747712384f469f3e910854b8f11452b2cb7952250348875
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.openbsd-386.tar.gz
+        - name: redis_exporter-v1.17.0.openbsd-amd64.tar.gz
+          commit: null
+          size: 3264993
+          sha256: sha256:33db6a723ca5c121f79382c2cf6a9668c8f99727b4a503813efcefed569ab792
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.openbsd-amd64.tar.gz
+        - name: redis_exporter-v1.17.0.solaris-amd64.tar.gz
+          commit: null
+          size: 3258040
+          sha256: sha256:347d62d0c54eda823afa12b68cc153fe43209394fe40d82c261840fd6ff67c4b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.solaris-amd64.tar.gz
+        - name: redis_exporter-v1.17.0.windows-386.zip
+          commit: null
+          size: 3113594
+          sha256: sha256:9b69f7592fa31d5934560f136b6354f1407bf048a7140a9ccdcb5635c226695b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.windows-386.zip
+        - name: redis_exporter-v1.17.0.windows-amd64.zip
+          commit: null
+          size: 3217354
+          sha256: sha256:5deebf35839774492d5afa5ed29a4ecbf7344a945c7df8bd821765da7df7469f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/redis_exporter-v1.17.0.windows-amd64.zip
+        - name: sha256sums.txt
+          commit: null
+          size: 2382
+          sha256: sha256:c63b9ba08a1113479ceabbc57212de6b1f4f021a574e5966a9f270c4ad9ca6cd
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.17.0/sha256sums.txt
+    - name: v1.16.0
+      commit: null
+      timestamp: '2021-01-29T01:51:15'
+      prerelease: false
+      files:
+        - name: redis_exporter-v1.16.0.darwin-amd64.tar.gz
+          commit: null
+          size: 3420499
+          sha256: sha256:543dae63d36e050f770067097193443b1178feb859acd8d64187dbed1734284b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.darwin-amd64.tar.gz
+        - name: redis_exporter-v1.16.0.freebsd-386.tar.gz
+          commit: null
+          size: 3066396
+          sha256: sha256:bfc34774d38880ff1dab7be461f8c05c839fab58c2bde9f3696a90270ea46385
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.freebsd-386.tar.gz
+        - name: redis_exporter-v1.16.0.freebsd-amd64.tar.gz
+          commit: null
+          size: 3268945
+          sha256: sha256:6802a1e18c0d47b98914d88bbe38be5b4e4bf708bc65d8cc486529229a6918c1
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.freebsd-amd64.tar.gz
+        - name: redis_exporter-v1.16.0.freebsd-arm.tar.gz
+          commit: null
+          size: 3009325
+          sha256: sha256:37bdaae6229fd637be5cca05afdc3a54b63f59db3ce932bed6274802723e21a7
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.freebsd-arm.tar.gz
+        - name: redis_exporter-v1.16.0.illumos-amd64.tar.gz
+          commit: null
+          size: 3256560
+          sha256: sha256:b27ae46cf5cc5b7e8ec46a97b6bca1c86face780a5b94f17bd590195454f88ec
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.illumos-amd64.tar.gz
+        - name: redis_exporter-v1.16.0.linux-386.tar.gz
+          commit: null
+          size: 3067343
+          sha256: sha256:09b819eabf8768ac7056f52a94e27c6c9899abbd5ff87f6fdb15b69e24ac2950
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.linux-386.tar.gz
+        - name: redis_exporter-v1.16.0.linux-amd64.tar.gz
+          commit: null
+          size: 3264022
+          sha256: sha256:de350fe8638cd29eca2fde11d26bf59d429504c6a8f1752bf9c1697c5689f425
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.linux-amd64.tar.gz
+        - name: redis_exporter-v1.16.0.linux-arm.tar.gz
+          commit: null
+          size: 3002836
+          sha256: sha256:0ba3ae681e7f3c10201c23ed8f784b8feba433c3bea0f5a449582983e92eaf7b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.linux-arm.tar.gz
+        - name: redis_exporter-v1.16.0.linux-arm64.tar.gz
+          commit: null
+          size: 2946729
+          sha256: sha256:00d2655962c1f2d39b865b1aa98fd96f4f21a70c583a82a12332479fcead7002
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.linux-arm64.tar.gz
+        - name: redis_exporter-v1.16.0.linux-mips64.tar.gz
+          commit: null
+          size: 2883832
+          sha256: sha256:27caa3103aa2dafa2414d6ab7f97ed73e685a82080482a86f17c08081e1ffb69
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.linux-mips64.tar.gz
+        - name: redis_exporter-v1.16.0.linux-mips64le.tar.gz
+          commit: null
+          size: 2818804
+          sha256: sha256:ace91d710c34d37070a3d48976a5f3d44e5d1034907fa89a35d508a9a180fbe3
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.linux-mips64le.tar.gz
+        - name: redis_exporter-v1.16.0.linux-ppc64.tar.gz
+          commit: null
+          size: 2922731
+          sha256: sha256:b6c3e8bee3f25c18a6dc4279f7d31be7691fad045dd4c258c166843ab627d2f4
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.linux-ppc64.tar.gz
+        - name: redis_exporter-v1.16.0.linux-ppc64le.tar.gz
+          commit: null
+          size: 2880858
+          sha256: sha256:4c60343c6f2d89dbe83fb3ffe44ca386f4fabc765d74634a03e09d6aac10c3f7
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.linux-ppc64le.tar.gz
+        - name: redis_exporter-v1.16.0.linux-s390x.tar.gz
+          commit: null
+          size: 3177575
+          sha256: sha256:7b992c2915f8d8179afe07df4e373bffa07eb74fa3f3cf05ade89ce6f573e676
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.linux-s390x.tar.gz
+        - name: redis_exporter-v1.16.0.netbsd-386.tar.gz
+          commit: null
+          size: 3055878
+          sha256: sha256:b8d9e2a50ee2e206f2f51fb872bbd3389ab64c6d69777a496d2c9a49bded9171
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.netbsd-386.tar.gz
+        - name: redis_exporter-v1.16.0.netbsd-amd64.tar.gz
+          commit: null
+          size: 3257892
+          sha256: sha256:d06f30487c6e04b46dd9052bf32ed9e0bebdd0551e58dac2487839f3751eb410
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.netbsd-amd64.tar.gz
+        - name: redis_exporter-v1.16.0.netbsd-arm.tar.gz
+          commit: null
+          size: 3000439
+          sha256: sha256:d38f8af1b0edce31cfc6568f438b8b5e530ec235cd5ffc036ccf9d1c99e712a7
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.netbsd-arm.tar.gz
+        - name: redis_exporter-v1.16.0.openbsd-386.tar.gz
+          commit: null
+          size: 3060216
+          sha256: sha256:fdd16a424ba9ad686126d835c62aeff6c62159d9093185634e3017d85e336380
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.openbsd-386.tar.gz
+        - name: redis_exporter-v1.16.0.openbsd-amd64.tar.gz
+          commit: null
+          size: 3262369
+          sha256: sha256:20414daa3eb439bec121a38956fbdc1aead8521ea3712d3c0493aa2ccc48ef94
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.openbsd-amd64.tar.gz
+        - name: redis_exporter-v1.16.0.solaris-amd64.tar.gz
+          commit: null
+          size: 3255007
+          sha256: sha256:ceed82ca6ed5908c0faad2c8ce06a5b69904f927e35f3a36f67127679c0ef54c
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.solaris-amd64.tar.gz
+        - name: redis_exporter-v1.16.0.windows-386.zip
+          commit: null
+          size: 3110302
+          sha256: sha256:42fdb34b68671065b3aec0a841db78fb504849a7e28eaeec2c8ef6e2837c2e5f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.windows-386.zip
+        - name: redis_exporter-v1.16.0.windows-amd64.zip
+          commit: null
+          size: 3215517
+          sha256: sha256:8c68db4ce7a2046f7c4fa58341b37cbd1bcad7a301891fab3974c8e2bd5fd61b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/redis_exporter-v1.16.0.windows-amd64.zip
+        - name: sha256sums.txt
+          commit: null
+          size: 2382
+          sha256: sha256:61ffabfd4392a21b60f8c55f28e313c20374151442da5514e9644f6787cab88f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.16.0/sha256sums.txt
+    - name: v1.15.1
+      commit: null
+      timestamp: '2021-01-12T02:51:36'
+      prerelease: false
+      files:
+        - name: redis_exporter-v1.15.1.darwin-amd64.tar.gz
+          commit: null
+          size: 3419010
+          sha256: sha256:5516c44ca06cb24665f1ab37da48872e00b26f19e824f38f9f96ad9d68d56cbe
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.darwin-amd64.tar.gz
+        - name: redis_exporter-v1.15.1.freebsd-386.tar.gz
+          commit: null
+          size: 3065175
+          sha256: sha256:332e842af76c3a5776e7a62efaf80653e0020acc0b0060656b72188be1ac44c5
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.freebsd-386.tar.gz
+        - name: redis_exporter-v1.15.1.freebsd-amd64.tar.gz
+          commit: null
+          size: 3268921
+          sha256: sha256:4a586cf3500141a96c966d2012512604eec1f80927089494a349f2ccf55d26d4
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.freebsd-amd64.tar.gz
+        - name: redis_exporter-v1.15.1.freebsd-arm.tar.gz
+          commit: null
+          size: 3009717
+          sha256: sha256:8c51c2495b19986527f2f79222c308f8b20ddcc677d2687b5247f6f2be20d81d
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.freebsd-arm.tar.gz
+        - name: redis_exporter-v1.15.1.illumos-amd64.tar.gz
+          commit: null
+          size: 3255719
+          sha256: sha256:560c8d866740044a619b06b01438bb414b2bfa201cb86baca445a3cbc96e3dca
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.illumos-amd64.tar.gz
+        - name: redis_exporter-v1.15.1.linux-386.tar.gz
+          commit: null
+          size: 3065922
+          sha256: sha256:c1a51935dd833cefc3e87a5b3490d973213dc60950ede6da83c515f9c1d85162
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.linux-386.tar.gz
+        - name: redis_exporter-v1.15.1.linux-amd64.tar.gz
+          commit: null
+          size: 3263800
+          sha256: sha256:a70577b65fe1d23fc3e691a18381912794283b7b612085714c8137edc0c41a2e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.linux-amd64.tar.gz
+        - name: redis_exporter-v1.15.1.linux-arm.tar.gz
+          commit: null
+          size: 3002917
+          sha256: sha256:c942609e77fffaf8b44edd46f6d0e88608da03b56054cc61c2a024054216cd6a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.linux-arm.tar.gz
+        - name: redis_exporter-v1.15.1.linux-arm64.tar.gz
+          commit: null
+          size: 2946592
+          sha256: sha256:52e219c4c62d9b3a032e6a87435f5737495ff295ae40f71ededcb245413a8ab7
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.linux-arm64.tar.gz
+        - name: redis_exporter-v1.15.1.linux-mips64.tar.gz
+          commit: null
+          size: 2882182
+          sha256: sha256:5ab5f54ea0aae9a8ac96be270e3f7dc86e8327fbce282944ba1ae0fdd5b0af41
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.linux-mips64.tar.gz
+        - name: redis_exporter-v1.15.1.linux-mips64le.tar.gz
+          commit: null
+          size: 2818430
+          sha256: sha256:d8512d784bacdfa3720eb8fcc30c3280d60e06cada7d07070b0b5c17defcf2d0
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.linux-mips64le.tar.gz
+        - name: redis_exporter-v1.15.1.linux-ppc64.tar.gz
+          commit: null
+          size: 2922772
+          sha256: sha256:b0312610ba102527c640091e8b1c796c3456110d8bfb3a7e75af153a52020423
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.linux-ppc64.tar.gz
+        - name: redis_exporter-v1.15.1.linux-ppc64le.tar.gz
+          commit: null
+          size: 2879621
+          sha256: sha256:81d00e4236c01f2cb5496f5f94eb180c192677958375efca9a47aa122cc2b513
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.linux-ppc64le.tar.gz
+        - name: redis_exporter-v1.15.1.linux-s390x.tar.gz
+          commit: null
+          size: 3178493
+          sha256: sha256:dc3d527e6182fa472a10357955755e7a41093846994995f506efef2803f48390
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.linux-s390x.tar.gz
+        - name: redis_exporter-v1.15.1.netbsd-386.tar.gz
+          commit: null
+          size: 3055914
+          sha256: sha256:ea6eba2bfb7103f81851f9050e0ca920f551d1222ca64ad8b9298114ce4a3d98
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.netbsd-386.tar.gz
+        - name: redis_exporter-v1.15.1.netbsd-amd64.tar.gz
+          commit: null
+          size: 3257721
+          sha256: sha256:9b97a614ae54b44e12744803588286a938de2b509d978d13950da6c8ed9e5795
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.netbsd-amd64.tar.gz
+        - name: redis_exporter-v1.15.1.netbsd-arm.tar.gz
+          commit: null
+          size: 2999053
+          sha256: sha256:5821d920c9b32fa50005a031e4b4f5ffd0475268a5b202258f29f33b4d736218
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.netbsd-arm.tar.gz
+        - name: redis_exporter-v1.15.1.openbsd-386.tar.gz
+          commit: null
+          size: 3059162
+          sha256: sha256:8960503d571a1e5224548cf635222d33d462f8db52868a426b086dbf6f8d84d0
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.openbsd-386.tar.gz
+        - name: redis_exporter-v1.15.1.openbsd-amd64.tar.gz
+          commit: null
+          size: 3261786
+          sha256: sha256:14a7b43d471a0ea7c2a0dd66e210ead0ba7a1ad9f1dbf430012974087f010987
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.openbsd-amd64.tar.gz
+        - name: redis_exporter-v1.15.1.solaris-amd64.tar.gz
+          commit: null
+          size: 3255315
+          sha256: sha256:2eb31c15c6ea6778f71c3fb541c1534c86c6fed904812ab1f4b44050ac39a6b9
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.solaris-amd64.tar.gz
+        - name: redis_exporter-v1.15.1.windows-386.zip
+          commit: null
+          size: 3109562
+          sha256: sha256:097682ccddf76e1991916f42055caa678ff649d4afd916e3c30d91c9251ce8b1
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.windows-386.zip
+        - name: redis_exporter-v1.15.1.windows-amd64.zip
+          commit: null
+          size: 3214869
+          sha256: sha256:9894834f34eaaf1ddb375accfd18c37ade8c6e74822f2ffa62c7323800c4c86f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/redis_exporter-v1.15.1.windows-amd64.zip
+        - name: sha256sums.txt
+          commit: null
+          size: 2382
+          sha256: sha256:991125df9fa8c7efafd5896f57e11711f6657d8c0c681c08756387176627f4dd
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.1/sha256sums.txt
+    - name: v1.15.0
+      commit: null
+      timestamp: '2020-12-27T18:56:45'
+      prerelease: false
+      files:
+        - name: redis_exporter-v1.15.0.darwin-amd64.tar.gz
+          commit: null
+          size: 3418081
+          sha256: sha256:b5d75fda0a83e7abc61d161e341ea1345514d0eb849a7b4deb8f7c842111c70c
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.darwin-amd64.tar.gz
+        - name: redis_exporter-v1.15.0.freebsd-386.tar.gz
+          commit: null
+          size: 3064203
+          sha256: sha256:ec382517e6b315c58e1cf2b6d5b308a4fec80550fd5c309fee220fdecd44c7b0
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.freebsd-386.tar.gz
+        - name: redis_exporter-v1.15.0.freebsd-amd64.tar.gz
+          commit: null
+          size: 3267067
+          sha256: sha256:2a31d95645ea0ba4954b93b7383f5da0b05e05c7779920eae60538b573896bc0
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.freebsd-amd64.tar.gz
+        - name: redis_exporter-v1.15.0.freebsd-arm.tar.gz
+          commit: null
+          size: 3008092
+          sha256: sha256:894149912830914ab90e5dce9eac18b2eb29215c358a24fac9a18eb0b4573252
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.freebsd-arm.tar.gz
+        - name: redis_exporter-v1.15.0.illumos-amd64.tar.gz
+          commit: null
+          size: 3253539
+          sha256: sha256:9df317e6ba020169e81b03f8d3348122bb7968b90bb9e0da2f14a082ebd83b9a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.illumos-amd64.tar.gz
+        - name: redis_exporter-v1.15.0.linux-386.tar.gz
+          commit: null
+          size: 3065314
+          sha256: sha256:899d8f311e993bdbaf5779675e7a82d90f017fa218189fd7baad97ee7823d388
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.linux-386.tar.gz
+        - name: redis_exporter-v1.15.0.linux-amd64.tar.gz
+          commit: null
+          size: 3262929
+          sha256: sha256:0d732ad4ef345853dc301c895c4563155e9458cd03c09cf8e24a419e5d4015e7
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.linux-amd64.tar.gz
+        - name: redis_exporter-v1.15.0.linux-arm.tar.gz
+          commit: null
+          size: 3001679
+          sha256: sha256:4710cf92a5aa5b37d234d4453a1e6c70e8c72e0e0757fdb7a5337a7598eabb4f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.linux-arm.tar.gz
+        - name: redis_exporter-v1.15.0.linux-arm64.tar.gz
+          commit: null
+          size: 2946063
+          sha256: sha256:649fbe782708129019517ac330cd542d721b5c546e032a5f4bb96ce5aaa38a2e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.linux-arm64.tar.gz
+        - name: redis_exporter-v1.15.0.linux-mips64.tar.gz
+          commit: null
+          size: 2880833
+          sha256: sha256:8aaa33cd5d8656408b1a5512dcb91f5c1b354ca47332bf5d0c4b273598e975f9
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.linux-mips64.tar.gz
+        - name: redis_exporter-v1.15.0.linux-mips64le.tar.gz
+          commit: null
+          size: 2817045
+          sha256: sha256:a5eb42e5f0237b50550105444b9924fe9d03e10e2f0c35ab9180caeaaddecbe6
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.linux-mips64le.tar.gz
+        - name: redis_exporter-v1.15.0.linux-ppc64.tar.gz
+          commit: null
+          size: 2921948
+          sha256: sha256:2701199e4a3a7ee60c072041636695d9009c15c52e76e50b663383080478341b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.linux-ppc64.tar.gz
+        - name: redis_exporter-v1.15.0.linux-ppc64le.tar.gz
+          commit: null
+          size: 2878581
+          sha256: sha256:3c816b0b145655c73d40f3dec95ded5d738ba6b80bc78cca23e4d1263c8a3993
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.linux-ppc64le.tar.gz
+        - name: redis_exporter-v1.15.0.linux-s390x.tar.gz
+          commit: null
+          size: 3177396
+          sha256: sha256:072dd5845d389fd2ef87c39ab42fec662a95584b756b3af5899cb31798ad776f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.linux-s390x.tar.gz
+        - name: redis_exporter-v1.15.0.netbsd-386.tar.gz
+          commit: null
+          size: 3055045
+          sha256: sha256:162dc2e1b9349acacef615f983692cbe7d0a9734b2c9db2be483c74f3a228dd3
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.netbsd-386.tar.gz
+        - name: redis_exporter-v1.15.0.netbsd-amd64.tar.gz
+          commit: null
+          size: 3256638
+          sha256: sha256:6dec64155727022a5242e21e33b5e921b28c1ff4042513ba159ab149796703f0
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.netbsd-amd64.tar.gz
+        - name: redis_exporter-v1.15.0.netbsd-arm.tar.gz
+          commit: null
+          size: 2998625
+          sha256: sha256:6dd1969d9193437cf6b1ee2ea91ff9b733be3d1ab616f248bf2e818e9eb12c60
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.netbsd-arm.tar.gz
+        - name: redis_exporter-v1.15.0.openbsd-386.tar.gz
+          commit: null
+          size: 3058483
+          sha256: sha256:0fe85872f828bcee9de603e5f716a0db6f100090cc4d8e9dc97d7294f63e88e9
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.openbsd-386.tar.gz
+        - name: redis_exporter-v1.15.0.openbsd-amd64.tar.gz
+          commit: null
+          size: 3260390
+          sha256: sha256:b0d7d95ef875435452c2a31787f3f13b290d88a16c9010b7e0c7577b91a205a2
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.openbsd-amd64.tar.gz
+        - name: redis_exporter-v1.15.0.solaris-amd64.tar.gz
+          commit: null
+          size: 3253499
+          sha256: sha256:5b7c8c8e90d681ca34690b61b28632b02a915585c375b25b4b111e8a7c9c31fd
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.solaris-amd64.tar.gz
+        - name: redis_exporter-v1.15.0.windows-386.zip
+          commit: null
+          size: 3109192
+          sha256: sha256:b24a772ab9165bf72234117d87804589742da46503bb49001941ce81005fb60a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.windows-386.zip
+        - name: redis_exporter-v1.15.0.windows-amd64.zip
+          commit: null
+          size: 3214383
+          sha256: sha256:c45a7da2e5333a31257812c02cecb8a86e56f5743651896fb99fa62389a2c613
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/redis_exporter-v1.15.0.windows-amd64.zip
+        - name: sha256sums.txt
+          commit: null
+          size: 2382
+          sha256: sha256:bfb48e24ea5246815abe368636942bc22335c73336829e0ee20f94be010e082e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.15.0/sha256sums.txt
+    - name: v1.14.0
+      commit: null
+      timestamp: '2020-12-10T01:07:41'
+      prerelease: false
+      files:
+        - name: redis_exporter-v1.14.0.darwin-amd64.tar.gz
+          commit: null
+          size: 3399312
+          sha256: sha256:e6ab9622b59ce85b3a0ec035c04fb4eb5983ae6457b8400fa1fc7e247ec3ea32
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.darwin-amd64.tar.gz
+        - name: redis_exporter-v1.14.0.freebsd-386.tar.gz
+          commit: null
+          size: 3046835
+          sha256: sha256:d425956f1ed64f712e456649b8f4b707aa9739d0fe29d7883e0f42c2ba28bfee
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.freebsd-386.tar.gz
+        - name: redis_exporter-v1.14.0.freebsd-amd64.tar.gz
+          commit: null
+          size: 3250039
+          sha256: sha256:3c179fe8a7e5f27a8360bd614cc2a982984adf3b67ef2abc7ceea06c99fc5e0e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.freebsd-amd64.tar.gz
+        - name: redis_exporter-v1.14.0.freebsd-arm.tar.gz
+          commit: null
+          size: 2989730
+          sha256: sha256:befd6b2a68600a4f9e2f3aa5a04fe1b1e28f094a86ed694f3e0569b84ae36efc
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.freebsd-arm.tar.gz
+        - name: redis_exporter-v1.14.0.illumos-amd64.tar.gz
+          commit: null
+          size: 3235439
+          sha256: sha256:cbb8701f034792fb73295a2076a449d7a08a164c0f1d88a0ca20b7a1b5f734a6
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.illumos-amd64.tar.gz
+        - name: redis_exporter-v1.14.0.linux-386.tar.gz
+          commit: null
+          size: 3046958
+          sha256: sha256:aa76c1a4b140da7ceb21e7e8dcda1530d670b7ad27139bdf2de051650713d5ad
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.linux-386.tar.gz
+        - name: redis_exporter-v1.14.0.linux-amd64.tar.gz
+          commit: null
+          size: 3242761
+          sha256: sha256:38c528e1b8b77ddd97f524ab986b84bc82e5ce5023abcef911b7897088fdb4e8
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.linux-amd64.tar.gz
+        - name: redis_exporter-v1.14.0.linux-arm.tar.gz
+          commit: null
+          size: 2984051
+          sha256: sha256:078f8e08d66bac80d624647f9c43bec7f7dc19147f5d74a3e021ead5f2c0f30e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.linux-arm.tar.gz
+        - name: redis_exporter-v1.14.0.linux-arm64.tar.gz
+          commit: null
+          size: 2927274
+          sha256: sha256:f9e903d9a67c49a5272d2eae9db05005fb193e17521c71890093c57966e88bde
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.linux-arm64.tar.gz
+        - name: redis_exporter-v1.14.0.linux-mips64.tar.gz
+          commit: null
+          size: 2862677
+          sha256: sha256:56852c78633d5302289776c83e4859d5c62b61c9e31592a40435cab92753b4e5
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.linux-mips64.tar.gz
+        - name: redis_exporter-v1.14.0.linux-mips64le.tar.gz
+          commit: null
+          size: 2799735
+          sha256: sha256:03c2a9166b4f7593a39b6b19fdb2165bf773aa32a584eb34b8069211fca53974
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.linux-mips64le.tar.gz
+        - name: redis_exporter-v1.14.0.linux-ppc64.tar.gz
+          commit: null
+          size: 2904953
+          sha256: sha256:ee702b082880bab2f25f83de13746914898405ee152bd49835d8e0dc3881dfb8
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.linux-ppc64.tar.gz
+        - name: redis_exporter-v1.14.0.linux-ppc64le.tar.gz
+          commit: null
+          size: 2861996
+          sha256: sha256:fecc419831bd4b7fa71048c8817c3241e526414bbc3a665991a172f41f4730f3
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.linux-ppc64le.tar.gz
+        - name: redis_exporter-v1.14.0.linux-s390x.tar.gz
+          commit: null
+          size: 3158090
+          sha256: sha256:aa1ec8da6f91446883e106b7b66481b762dabc35be41f3b5400fb457b68cb00c
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.linux-s390x.tar.gz
+        - name: redis_exporter-v1.14.0.netbsd-386.tar.gz
+          commit: null
+          size: 3036984
+          sha256: sha256:5f9b7b3dc6f2b09f8a95b90c8ead0a749adb88960f349034b2ffad9d456141ac
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.netbsd-386.tar.gz
+        - name: redis_exporter-v1.14.0.netbsd-amd64.tar.gz
+          commit: null
+          size: 3238442
+          sha256: sha256:c7b90b07c408927512531bd2a9bd667f91d638c76d7e262eaeda35f363908e38
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.netbsd-amd64.tar.gz
+        - name: redis_exporter-v1.14.0.netbsd-arm.tar.gz
+          commit: null
+          size: 2980915
+          sha256: sha256:9ca08c9842e3ee4669c50c7cdf357e0d3e84feb2f9e823b4585fc63aa11c3fef
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.netbsd-arm.tar.gz
+        - name: redis_exporter-v1.14.0.openbsd-386.tar.gz
+          commit: null
+          size: 3040249
+          sha256: sha256:46f345ef0c6c4560a7d6091f52d41458589ec4806bd8c3a5596c8bea3dfdeaa3
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.openbsd-386.tar.gz
+        - name: redis_exporter-v1.14.0.openbsd-amd64.tar.gz
+          commit: null
+          size: 3242390
+          sha256: sha256:2469330e4896c038099df22b106e4f1085a155a5b6c5fdcb09c405550a24b71c
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.openbsd-amd64.tar.gz
+        - name: redis_exporter-v1.14.0.solaris-amd64.tar.gz
+          commit: null
+          size: 3234576
+          sha256: sha256:25aec0c99fc0e3900abdad5bdc44b7e9761e074da8f194a6d04bebbdbe8fa0cf
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.solaris-amd64.tar.gz
+        - name: redis_exporter-v1.14.0.windows-386.zip
+          commit: null
+          size: 3089719
+          sha256: sha256:104b111d8f28aaf59ff1a9b13c1ebcde8bdfea51f9360d756d9789d6d1905df8
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.windows-386.zip
+        - name: redis_exporter-v1.14.0.windows-amd64.zip
+          commit: null
+          size: 3193282
+          sha256: sha256:e8a8a29558ac2e6a955a6cf33420f2aa161b1e29e17e9f046e7d14c9be36f35e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/redis_exporter-v1.14.0.windows-amd64.zip
+        - name: sha256sums.txt
+          commit: null
+          size: 2382
+          sha256: sha256:a5dffabb9e631780943487fccd6c6027bc95452d9faf0400eb768ca537c8b52c
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.14.0/sha256sums.txt
+    - name: v1.13.1
+      commit: null
+      timestamp: '2020-11-02T14:43:09'
+      prerelease: false
+      files:
+        - name: redis_exporter-v1.13.1.darwin-amd64.tar.gz
+          commit: null
+          size: 3397592
+          sha256: sha256:902e75f4f138a854c017c3f521e3f0a829cfc8d44c7f8ef96c4419da5f019d0f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.darwin-amd64.tar.gz
+        - name: redis_exporter-v1.13.1.freebsd-386.tar.gz
+          commit: null
+          size: 3045698
+          sha256: sha256:4e8eb9578ecd63f1c2fe0c8e623176821484f3994b80f3603faec03ada9ec477
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.freebsd-386.tar.gz
+        - name: redis_exporter-v1.13.1.freebsd-amd64.tar.gz
+          commit: null
+          size: 3246838
+          sha256: sha256:0c43167c0ba24d5b0a7ca17ceefbd5c38542cacb7f761e81e03bc09ddf219417
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.freebsd-amd64.tar.gz
+        - name: redis_exporter-v1.13.1.freebsd-arm.tar.gz
+          commit: null
+          size: 2987464
+          sha256: sha256:e39a0e238eec8e718feee9779351ac9133b533dd95478d8ffd29c3b2fbb88053
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.freebsd-arm.tar.gz
+        - name: redis_exporter-v1.13.1.illumos-amd64.tar.gz
+          commit: null
+          size: 3233764
+          sha256: sha256:73d6d6d62b29f9ce0822da3b36b9e7d90365e7d54f0e04b1e37217016e8233c1
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.illumos-amd64.tar.gz
+        - name: redis_exporter-v1.13.1.linux-386.tar.gz
+          commit: null
+          size: 3045619
+          sha256: sha256:7db36501aedead5aa10056ef78d4ce882bdeb7ab0263c71895cff6cf742da254
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.linux-386.tar.gz
+        - name: redis_exporter-v1.13.1.linux-amd64.tar.gz
+          commit: null
+          size: 3241167
+          sha256: sha256:3bd576e873ecac54ae07100c1441099f2fac9802c63a6c3bd33a0110a156f66f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.linux-amd64.tar.gz
+        - name: redis_exporter-v1.13.1.linux-arm.tar.gz
+          commit: null
+          size: 2981258
+          sha256: sha256:8f256614f49dcd0390ac855696ce8af2ab26c5c324a98fc9d1a02c4974221c8b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.linux-arm.tar.gz
+        - name: redis_exporter-v1.13.1.linux-arm64.tar.gz
+          commit: null
+          size: 2926690
+          sha256: sha256:bceb4f125a116b0acd8b8999dbb48e4abce31e32f5cee1195a9cb151451b8514
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.linux-arm64.tar.gz
+        - name: redis_exporter-v1.13.1.linux-mips64.tar.gz
+          commit: null
+          size: 2860525
+          sha256: sha256:99f2ba01838454cc44e857d6f8774fd4d9663cd7f3c39390b75b3730f838e16e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.linux-mips64.tar.gz
+        - name: redis_exporter-v1.13.1.linux-mips64le.tar.gz
+          commit: null
+          size: 2798680
+          sha256: sha256:f92b804e99f67b3a4e178ca7a6d2566bcff09b47ed6e41464f39cb700d424ee3
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.linux-mips64le.tar.gz
+        - name: redis_exporter-v1.13.1.linux-ppc64.tar.gz
+          commit: null
+          size: 2902710
+          sha256: sha256:54920b8d42874e7a2321642483f001b8e3e64e22a50c9dd6106e6b5715800efe
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.linux-ppc64.tar.gz
+        - name: redis_exporter-v1.13.1.linux-ppc64le.tar.gz
+          commit: null
+          size: 2859827
+          sha256: sha256:5cfc2f0c6e26572ad0999462cdbef2b568096a7aff399227e1f68fae45fa7983
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.linux-ppc64le.tar.gz
+        - name: redis_exporter-v1.13.1.linux-s390x.tar.gz
+          commit: null
+          size: 3154898
+          sha256: sha256:f75748309985886b2a840ba71de003cd12ce237c39f693ac506630f1f670249e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.linux-s390x.tar.gz
+        - name: redis_exporter-v1.13.1.netbsd-386.tar.gz
+          commit: null
+          size: 3035477
+          sha256: sha256:da42228af88d8ac9cebca4d17c94e6f08a470606a199390cb114ddeea24cc444
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.netbsd-386.tar.gz
+        - name: redis_exporter-v1.13.1.netbsd-amd64.tar.gz
+          commit: null
+          size: 3235986
+          sha256: sha256:503b7b30c634ad3c7da3aedc8872c9e48caa9a76a7609c72d62ab9e86ccb1abc
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.netbsd-amd64.tar.gz
+        - name: redis_exporter-v1.13.1.netbsd-arm.tar.gz
+          commit: null
+          size: 2979619
+          sha256: sha256:f396a4998407ab52bed99de0d4a5fc7cc16e1bf1ed197a5e4d155a33e240ca05
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.netbsd-arm.tar.gz
+        - name: redis_exporter-v1.13.1.openbsd-386.tar.gz
+          commit: null
+          size: 3038319
+          sha256: sha256:593c9a01c2120eaf7b0d71a15edf4659dd9624460ae5643159d78fcdc8595d9d
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.openbsd-386.tar.gz
+        - name: redis_exporter-v1.13.1.openbsd-amd64.tar.gz
+          commit: null
+          size: 3240556
+          sha256: sha256:ec05b79f2afcbd74ac31d5d4428da6ae49d18f91c8f3687b56e9cdca53d3c511
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.openbsd-amd64.tar.gz
+        - name: redis_exporter-v1.13.1.solaris-amd64.tar.gz
+          commit: null
+          size: 3232920
+          sha256: sha256:6f3de8cb2926db6c9f11cb81d768dadcfe60e5b45f9e9d99123f46d3ec0d156e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.solaris-amd64.tar.gz
+        - name: redis_exporter-v1.13.1.windows-386.zip
+          commit: null
+          size: 3088631
+          sha256: sha256:a24111efd6c9192a966348680571d90dbd42a1da9c0699e6292a331e1537e4ed
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.windows-386.zip
+        - name: redis_exporter-v1.13.1.windows-amd64.zip
+          commit: null
+          size: 3192472
+          sha256: sha256:b528b946e226a633a5275c767312e1293ea4eaff7c3db45280d7f949a3b14112
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/redis_exporter-v1.13.1.windows-amd64.zip
+        - name: sha256sums.txt
+          commit: null
+          size: 2382
+          sha256: sha256:b6cf5bbf698de40bafa7120b0c9caf3aa4a335df8e13b9c0efcbf3e3b4849369
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.13.1/sha256sums.txt
+    - name: v1.13.0
+      commit: null
+      timestamp: '2020-11-01T13:17:40'
+      prerelease: false
+      files: []
+    - name: v1.12.1
+      commit: null
+      timestamp: '2020-10-16T02:16:05'
+      prerelease: false
+      files:
+        - name: redis_exporter-v1.12.1.darwin-amd64.tar.gz
+          commit: null
+          size: 3392851
+          sha256: sha256:0651a3c47515dc4d9de19c16fd5611f2327e0f0cf3e3ff6708091031020fee4c
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.darwin-amd64.tar.gz
+        - name: redis_exporter-v1.12.1.freebsd-386.tar.gz
+          commit: null
+          size: 3042495
+          sha256: sha256:0caab2e3dd7577380c8e343dd0c248c8fd8d3b6386a05013a1dca30482ec8d85
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.freebsd-386.tar.gz
+        - name: redis_exporter-v1.12.1.freebsd-amd64.tar.gz
+          commit: null
+          size: 3243284
+          sha256: sha256:10befc084f95daa32c822232ca127cfa47bab8c80dffe0040ee100829f7feed2
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.freebsd-amd64.tar.gz
+        - name: redis_exporter-v1.12.1.freebsd-arm.tar.gz
+          commit: null
+          size: 2984013
+          sha256: sha256:a8df5c25b7f795b6c636289e7874e68850007df8d5395e23fbc024a52bdda643
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.freebsd-arm.tar.gz
+        - name: redis_exporter-v1.12.1.illumos-amd64.tar.gz
+          commit: null
+          size: 3229992
+          sha256: sha256:94423a6c95b0cf3b05f2282acc2b001bb68a35c96d347d3596236f3b4e41be2a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.illumos-amd64.tar.gz
+        - name: redis_exporter-v1.12.1.linux-386.tar.gz
+          commit: null
+          size: 3041240
+          sha256: sha256:5ce2d42ab6832931745fd33f8a3c6f79cb77d9d76fced5b553e17dd0ad6b1504
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.linux-386.tar.gz
+        - name: redis_exporter-v1.12.1.linux-amd64.tar.gz
+          commit: null
+          size: 3256042
+          sha256: sha256:644a2a6e51f102ccd7f5de9c7c89467ca454fe148c3a0391c6ba15edd6d62a91
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.linux-amd64.tar.gz
+        - name: redis_exporter-v1.12.1.linux-arm.tar.gz
+          commit: null
+          size: 2976811
+          sha256: sha256:9fb3a18a0533559c91c06911244341d720ff718fa8c730b8aaf1b30b376c3559
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.linux-arm.tar.gz
+        - name: redis_exporter-v1.12.1.linux-arm64.tar.gz
+          commit: null
+          size: 2921762
+          sha256: sha256:cccec147acc1e174a88b967f28e3ae87dbe1b3374188f5124f39b741eff75ba4
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.linux-arm64.tar.gz
+        - name: redis_exporter-v1.12.1.linux-mips64.tar.gz
+          commit: null
+          size: 2857466
+          sha256: sha256:abfc4cfb2585930b58ef4bd8330ab343af03d9ae48d49bcb08e296dd1fe41186
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.linux-mips64.tar.gz
+        - name: redis_exporter-v1.12.1.linux-mips64le.tar.gz
+          commit: null
+          size: 2795646
+          sha256: sha256:67811a60d94696ec42d44956af64d07a32036439b9214518d6e7377c175a25c0
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.linux-mips64le.tar.gz
+        - name: redis_exporter-v1.12.1.linux-ppc64.tar.gz
+          commit: null
+          size: 2897975
+          sha256: sha256:67e28e017b57037cc7cedd983ecfb627027152af32915fe44c943f41d46a01d7
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.linux-ppc64.tar.gz
+        - name: redis_exporter-v1.12.1.linux-ppc64le.tar.gz
+          commit: null
+          size: 2855927
+          sha256: sha256:f99b7f5cbdb3f1f96f02793d01b60eef6aefd85f74192f2b37e25320db65b6c8
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.linux-ppc64le.tar.gz
+        - name: redis_exporter-v1.12.1.linux-s390x.tar.gz
+          commit: null
+          size: 3151849
+          sha256: sha256:a2c7b90eedf233a774c03a26577a35af3c140e918b53bc99b078ed564dcebddc
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.linux-s390x.tar.gz
+        - name: redis_exporter-v1.12.1.netbsd-386.tar.gz
+          commit: null
+          size: 3032968
+          sha256: sha256:9be41b9ed20f9c1ed6a0857e4004f830977db7891a8510229808ebee3662b450
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.netbsd-386.tar.gz
+        - name: redis_exporter-v1.12.1.netbsd-amd64.tar.gz
+          commit: null
+          size: 3230971
+          sha256: sha256:ca1c9c6006ecfa21326cb07b85dbb285544274dc36db1e1d9f058351c0db43a2
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.netbsd-amd64.tar.gz
+        - name: redis_exporter-v1.12.1.netbsd-arm.tar.gz
+          commit: null
+          size: 2974756
+          sha256: sha256:aeab437deb8ee38ddb0cb3af0813c26fb37afcbdf9ee8f40db4fdf37aaba65c4
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.netbsd-arm.tar.gz
+        - name: redis_exporter-v1.12.1.openbsd-386.tar.gz
+          commit: null
+          size: 3036140
+          sha256: sha256:7760d973e30cc2e75573a3b67ec4fc8b198cbbb9c6317c2003a3be0d371a7a2f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.openbsd-386.tar.gz
+        - name: redis_exporter-v1.12.1.openbsd-amd64.tar.gz
+          commit: null
+          size: 3235926
+          sha256: sha256:832072387511e761923940c4c79823e784e00df56905388ee6e1beaaeb3e5e7c
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.openbsd-amd64.tar.gz
+        - name: redis_exporter-v1.12.1.solaris-amd64.tar.gz
+          commit: null
+          size: 3229238
+          sha256: sha256:5c1b379c687f2e7f30b3c4c12b13fe11be15299bc52ce84ea92cf915c7a9a802
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.solaris-amd64.tar.gz
+        - name: redis_exporter-v1.12.1.windows-386.zip
+          commit: null
+          size: 3083832
+          sha256: sha256:eddc8232f18c8f287e07f88ffb8a115593e793df6bdd849641dcc109d7714302
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.windows-386.zip
+        - name: redis_exporter-v1.12.1.windows-amd64.zip
+          commit: null
+          size: 3187834
+          sha256: sha256:8ab5763bf01fc62c2d32ecb62dbf137a848dc9ba60a635ce2af290c5cc2845ff
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/redis_exporter-v1.12.1.windows-amd64.zip
+        - name: sha256sums.txt
+          commit: null
+          size: 2382
+          sha256: sha256:a80af6fc59a21a4132a5d4a0ff35491d4fbdd05bd12c7d9fc9a4f5a59723619e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.1/sha256sums.txt
+    - name: v1.12.0
+      commit: null
+      timestamp: '2020-09-30T17:31:35'
+      prerelease: false
+      files:
+        - name: redis_exporter-v1.12.0.darwin-amd64.tar.gz
+          commit: null
+          size: 3392892
+          sha256: sha256:26d0892dcf0a01bed04717edb54e7508108d6a4d286e979557125bf396e03d55
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.darwin-amd64.tar.gz
+        - name: redis_exporter-v1.12.0.freebsd-386.tar.gz
+          commit: null
+          size: 3042411
+          sha256: sha256:e6a9d6ef08fe60268ecd624fd1fd7cc49eebde0022665580275a0006d2846af6
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.freebsd-386.tar.gz
+        - name: redis_exporter-v1.12.0.freebsd-amd64.tar.gz
+          commit: null
+          size: 3242536
+          sha256: sha256:d5953345136b85585288fd892288ded3a1fcb8908f526e53a93becb60e3f8c29
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.freebsd-amd64.tar.gz
+        - name: redis_exporter-v1.12.0.freebsd-arm.tar.gz
+          commit: null
+          size: 2983871
+          sha256: sha256:9771789bf5327542fa1d1bfde5b12093f3d728604209d53927f9e01fc0ed4f36
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.freebsd-arm.tar.gz
+        - name: redis_exporter-v1.12.0.illumos-amd64.tar.gz
+          commit: null
+          size: 3228346
+          sha256: sha256:80c024b993e568f1ec65583168bec2189257b5291346f835a0b93cbfb2f7d0bc
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.illumos-amd64.tar.gz
+        - name: redis_exporter-v1.12.0.linux-386.tar.gz
+          commit: null
+          size: 3041314
+          sha256: sha256:abebb878b3cd60ddf568fe822dd6e03e10d53da34af85dae5be9440b61147b9e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.linux-386.tar.gz
+        - name: redis_exporter-v1.12.0.linux-amd64.tar.gz
+          commit: null
+          size: 3256124
+          sha256: sha256:f1015b6288c4481b19708c79c3bd762bb7d6be358bb68159b09fb6307973787a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.linux-amd64.tar.gz
+        - name: redis_exporter-v1.12.0.linux-arm.tar.gz
+          commit: null
+          size: 2976224
+          sha256: sha256:123ee18a873fc0351fd856cf1dd0b6a4715634efa177ebb900530e1571d62fb5
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.linux-arm.tar.gz
+        - name: redis_exporter-v1.12.0.linux-arm64.tar.gz
+          commit: null
+          size: 2921223
+          sha256: sha256:86169dd10536ba586cde060a78ccc26a1fa185a6e41dc37759daf57a996ba8b2
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.linux-arm64.tar.gz
+        - name: redis_exporter-v1.12.0.linux-mips64.tar.gz
+          commit: null
+          size: 2857363
+          sha256: sha256:a0be4915eb2318fc9cd1b9d60b60631500fac7901066141ff639656e1176c116
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.linux-mips64.tar.gz
+        - name: redis_exporter-v1.12.0.linux-mips64le.tar.gz
+          commit: null
+          size: 2795589
+          sha256: sha256:83a5649e7adee2f9fd71eedfd536693456d2beb43629ba25089d37510ba63e9d
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.linux-mips64le.tar.gz
+        - name: redis_exporter-v1.12.0.linux-ppc64.tar.gz
+          commit: null
+          size: 2898984
+          sha256: sha256:9ca0b9b404dc10818a121f063dd53bbaceaff00be1e0f142d1802e463bc83bc4
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.linux-ppc64.tar.gz
+        - name: redis_exporter-v1.12.0.linux-ppc64le.tar.gz
+          commit: null
+          size: 2856208
+          sha256: sha256:8b7f81936c29cfc142e052c419dcd71d881dc6ba6ad605c85980f79427616025
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.linux-ppc64le.tar.gz
+        - name: redis_exporter-v1.12.0.linux-s390x.tar.gz
+          commit: null
+          size: 3151812
+          sha256: sha256:8f5e87d74d70a313f9c56c419d47960e51c616c6979177d8f9638001bced472e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.linux-s390x.tar.gz
+        - name: redis_exporter-v1.12.0.netbsd-386.tar.gz
+          commit: null
+          size: 3033181
+          sha256: sha256:e31b9b53fc17075143151e88129d5a05d91264777fa06b8a36d1842bcfd80df9
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.netbsd-386.tar.gz
+        - name: redis_exporter-v1.12.0.netbsd-amd64.tar.gz
+          commit: null
+          size: 3230226
+          sha256: sha256:2c9a3147682f2b32b5b191b86879683ff591f378b4912393932fab71e3827d51
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.netbsd-amd64.tar.gz
+        - name: redis_exporter-v1.12.0.netbsd-arm.tar.gz
+          commit: null
+          size: 2973393
+          sha256: sha256:4ac42fee7eef5b379141940078965ab5d13fc62c789b0455c818aef03676a875
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.netbsd-arm.tar.gz
+        - name: redis_exporter-v1.12.0.openbsd-386.tar.gz
+          commit: null
+          size: 3035971
+          sha256: sha256:3aac67500d1393ef81be0921d3e792d0f338805824788cc30e9d270412988e3c
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.openbsd-386.tar.gz
+        - name: redis_exporter-v1.12.0.openbsd-amd64.tar.gz
+          commit: null
+          size: 3233840
+          sha256: sha256:ee3bda0a599fa1a428f9aa5e15b83131d2676a8a8d168863d9584c05413c000d
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.openbsd-amd64.tar.gz
+        - name: redis_exporter-v1.12.0.solaris-amd64.tar.gz
+          commit: null
+          size: 3227111
+          sha256: sha256:a821ba07d53233fc95f96e47c899c10b25c786a0b06c0affd37fa7c4f5d1d29f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.solaris-amd64.tar.gz
+        - name: redis_exporter-v1.12.0.windows-386.zip
+          commit: null
+          size: 3084059
+          sha256: sha256:2580059b567487eee93a824d2a49e65d5a0dafec93504ea6401e8916b3cb19d9
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.windows-386.zip
+        - name: redis_exporter-v1.12.0.windows-amd64.zip
+          commit: null
+          size: 3186575
+          sha256: sha256:3755a1ef9009caf8a65923e2a7f50859b8207e63bd387126e2a792a505c3ee29
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/redis_exporter-v1.12.0.windows-amd64.zip
+        - name: sha256sums.txt
+          commit: null
+          size: 2382
+          sha256: sha256:f2b9e070df48c1bf91dd267b7a1f1e36b6338f4d3a0b8b506e8c286815dd8859
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.12.0/sha256sums.txt
+    - name: v1.11.1
+      commit: null
+      timestamp: '2020-08-28T17:20:08'
+      prerelease: false
+      files:
+        - name: redis_exporter-v1.11.1.darwin-amd64.tar.gz
+          commit: null
+          size: 3390841
+          sha256: sha256:f5db0086386f53f3db22f83ace0146c7a7897de58d2378fc0fe8600d99951cc9
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.darwin-amd64.tar.gz
+        - name: redis_exporter-v1.11.1.freebsd-386.tar.gz
+          commit: null
+          size: 3039797
+          sha256: sha256:a96c5fde2be8b890edbc65a053b639e99ea0332199f11bc431a0ce0620ae89eb
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.freebsd-386.tar.gz
+        - name: redis_exporter-v1.11.1.freebsd-amd64.tar.gz
+          commit: null
+          size: 3241271
+          sha256: sha256:7e2c67f64e83801715782e82148eda44f38b2679597286c4687bdd7896f88f2d
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.freebsd-amd64.tar.gz
+        - name: redis_exporter-v1.11.1.freebsd-arm.tar.gz
+          commit: null
+          size: 2981808
+          sha256: sha256:43bb0820e59c8e894083ee29cbcaee8124765b377c2aeddaffca6115bc7c911d
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.freebsd-arm.tar.gz
+        - name: redis_exporter-v1.11.1.illumos-amd64.tar.gz
+          commit: null
+          size: 3226583
+          sha256: sha256:4ad91fb7c7a162c185cc1fc8ac340611ef6c66fcf07023cb9069ce3c509eddac
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.illumos-amd64.tar.gz
+        - name: redis_exporter-v1.11.1.linux-386.tar.gz
+          commit: null
+          size: 3039347
+          sha256: sha256:5b399881785bfd55b1cf5dc7041ceb34dac6dfbebcd759193e86120a6a562a75
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.linux-386.tar.gz
+        - name: redis_exporter-v1.11.1.linux-amd64.tar.gz
+          commit: null
+          size: 3253779
+          sha256: sha256:5b9659e01beab5b364973e935e8d60e63248d1c1a82cb955a6ed4f036be020ca
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.linux-amd64.tar.gz
+        - name: redis_exporter-v1.11.1.linux-arm.tar.gz
+          commit: null
+          size: 2974118
+          sha256: sha256:1fb98bfec5ece99cfde379f0cf9c163a34b08640107175212c32cbb8b4844d5f
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.linux-arm.tar.gz
+        - name: redis_exporter-v1.11.1.linux-arm64.tar.gz
+          commit: null
+          size: 2918548
+          sha256: sha256:f861c99fa514c639a3b102686234843c6b590e115899b963a0f6736daf3dd489
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.linux-arm64.tar.gz
+        - name: redis_exporter-v1.11.1.linux-mips64.tar.gz
+          commit: null
+          size: 2856738
+          sha256: sha256:b2a94e7f9a160640d6bb7da8d93fa56019fe886b3be5347f0e8a9028945d5edf
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.linux-mips64.tar.gz
+        - name: redis_exporter-v1.11.1.linux-mips64le.tar.gz
+          commit: null
+          size: 2793600
+          sha256: sha256:a911deae148af31a256946e0e0e3be890d7efe09e475fecc7bf4ce85284dad61
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.linux-mips64le.tar.gz
+        - name: redis_exporter-v1.11.1.linux-ppc64.tar.gz
+          commit: null
+          size: 2896703
+          sha256: sha256:f1d28d79aab7c1e7487d7c1c1914a55ce792ab7d676edaf50b8edf728519746b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.linux-ppc64.tar.gz
+        - name: redis_exporter-v1.11.1.linux-ppc64le.tar.gz
+          commit: null
+          size: 2854705
+          sha256: sha256:11b3f8a7692296566e3791e0dc6539f857635456d37cabf16120a1b3674a78db
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.linux-ppc64le.tar.gz
+        - name: redis_exporter-v1.11.1.linux-s390x.tar.gz
+          commit: null
+          size: 3149909
+          sha256: sha256:31bbdafadc91353bfa595bae53a32dbd646073686e60272e65da41b83f64339b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.linux-s390x.tar.gz
+        - name: redis_exporter-v1.11.1.netbsd-386.tar.gz
+          commit: null
+          size: 3029689
+          sha256: sha256:9d2b6e72efa845e1855aa9ecb4fc2dd68201fe3ba2678c18707a0102b47f9195
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.netbsd-386.tar.gz
+        - name: redis_exporter-v1.11.1.netbsd-amd64.tar.gz
+          commit: null
+          size: 3230026
+          sha256: sha256:a86858087bda6c45e8f0ee653bcdb114af0061ccdd9628aec5da0dd7e1868068
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.netbsd-amd64.tar.gz
+        - name: redis_exporter-v1.11.1.netbsd-arm.tar.gz
+          commit: null
+          size: 2972270
+          sha256: sha256:73838997e60817c311dcbc784fa3383fa44e3d43cd35a51a83434fa10646ac34
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.netbsd-arm.tar.gz
+        - name: redis_exporter-v1.11.1.openbsd-386.tar.gz
+          commit: null
+          size: 3033297
+          sha256: sha256:8c5b4471456e96e9031c5e9a2ad3d21501b41c628dafc94819e955cf30764265
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.openbsd-386.tar.gz
+        - name: redis_exporter-v1.11.1.openbsd-amd64.tar.gz
+          commit: null
+          size: 3232825
+          sha256: sha256:01e9f0afe232eff2e7303c4c8672c0e910c60275aaeb8e47e2114b68706f50f6
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.openbsd-amd64.tar.gz
+        - name: redis_exporter-v1.11.1.solaris-amd64.tar.gz
+          commit: null
+          size: 3225661
+          sha256: sha256:b1398f73d552d1ff1439f8f49b32b480cde7d380eee6aec9550bcf4e7d50b31e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.solaris-amd64.tar.gz
+        - name: redis_exporter-v1.11.1.windows-386.zip
+          commit: null
+          size: 3082004
+          sha256: sha256:eebc3f43cd4ff02f3bb5639a59bda00b0113f3a6206b351d0e05ce53b93641da
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.windows-386.zip
+        - name: redis_exporter-v1.11.1.windows-amd64.zip
+          commit: null
+          size: 3184798
+          sha256: sha256:302dd403d64f2c07a7136e73ca3e43dbb0e038ac601f07d108916136ee123927
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/redis_exporter-v1.11.1.windows-amd64.zip
+        - name: sha256sums.txt
+          commit: null
+          size: 2382
+          sha256: sha256:25419e61f1ec53defe7568b1435b66e4e2abf1df734644b01ce95a1e4de3637a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.1/sha256sums.txt
+    - name: v1.11.0
+      commit: null
+      timestamp: '2020-08-26T00:54:15'
+      prerelease: false
+      files:
+        - name: redis_exporter-v1.11.0.darwin-amd64.tar.gz
+          commit: null
+          size: 3387018
+          sha256: sha256:72b14e75a94fd99b0ab60c7142fac3e8350200f386f5edf553a1ec896ac10211
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.darwin-amd64.tar.gz
+        - name: redis_exporter-v1.11.0.freebsd-386.tar.gz
+          commit: null
+          size: 3037915
+          sha256: sha256:fccabc94fd55ff30ccdd5d536025c9ca11ee559df24504825ff8c6a2a1408a5a
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.freebsd-386.tar.gz
+        - name: redis_exporter-v1.11.0.freebsd-amd64.tar.gz
+          commit: null
+          size: 3239591
+          sha256: sha256:2dcf0aa1c8629a94b11462a1a3477d10346266940c7414bf421741d3aff20ca5
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.freebsd-amd64.tar.gz
+        - name: redis_exporter-v1.11.0.freebsd-arm.tar.gz
+          commit: null
+          size: 2980614
+          sha256: sha256:5b9690b79ac0b48b02e22fa247f1cb310c98cb0ce6403fdc5871069672bd2b9e
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.freebsd-arm.tar.gz
+        - name: redis_exporter-v1.11.0.illumos-amd64.tar.gz
+          commit: null
+          size: 3225432
+          sha256: sha256:f19ac9bdb5f0a09c998dde1b3e1c7e9b315c90a22b9b91571b31715b854cd774
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.illumos-amd64.tar.gz
+        - name: redis_exporter-v1.11.0.linux-386.tar.gz
+          commit: null
+          size: 3037257
+          sha256: sha256:e0990436d951506c1d94e8c469c1e6ee8bdc8408a03231589ef5f2a92163f3e4
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.linux-386.tar.gz
+        - name: redis_exporter-v1.11.0.linux-amd64.tar.gz
+          commit: null
+          size: 3251343
+          sha256: sha256:d5e13ecfc46978397d24ca86950d6e2692bf2b369315c3f7c0191279a69aaac7
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.linux-amd64.tar.gz
+        - name: redis_exporter-v1.11.0.linux-arm.tar.gz
+          commit: null
+          size: 2973514
+          sha256: sha256:e60efbd8d875241b24daaaf4192e817cb014c60ce02bf43d10350165da9a2840
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.linux-arm.tar.gz
+        - name: redis_exporter-v1.11.0.linux-arm64.tar.gz
+          commit: null
+          size: 2918155
+          sha256: sha256:7288243fd89532248987377663a49a8e422af756c223430f1fae0a37d53a25e1
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.linux-arm64.tar.gz
+        - name: redis_exporter-v1.11.0.linux-mips64.tar.gz
+          commit: null
+          size: 2855051
+          sha256: sha256:08cd28d9b119a1d096d25c1c7aa5cbd40e919d365ea1d05499b5f1d91bdf01ad
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.linux-mips64.tar.gz
+        - name: redis_exporter-v1.11.0.linux-mips64le.tar.gz
+          commit: null
+          size: 2790515
+          sha256: sha256:9610b3100ac75420129f32fbfa25d09515d528f397918323dfd235b0a79c8d7c
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.linux-mips64le.tar.gz
+        - name: redis_exporter-v1.11.0.linux-ppc64.tar.gz
+          commit: null
+          size: 2894128
+          sha256: sha256:51fb5b8f5badfba85cb482627187258f578b7407a134c7633eba07e618befb4b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.linux-ppc64.tar.gz
+        - name: redis_exporter-v1.11.0.linux-ppc64le.tar.gz
+          commit: null
+          size: 2852489
+          sha256: sha256:79fb72fcdf7179498e517dbfcd4427e04ec135f33a22e9250595de56d8a363c4
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.linux-ppc64le.tar.gz
+        - name: redis_exporter-v1.11.0.linux-s390x.tar.gz
+          commit: null
+          size: 3148079
+          sha256: sha256:ef435da016ef184d30d9c6706d82193b44fd9722adfe09b44ae94e2fe6458c14
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.linux-s390x.tar.gz
+        - name: redis_exporter-v1.11.0.netbsd-386.tar.gz
+          commit: null
+          size: 3027675
+          sha256: sha256:8331e696b055713618c8d0086a56bb678c3df968dc0f1d3ae1a0cee57a2c2392
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.netbsd-386.tar.gz
+        - name: redis_exporter-v1.11.0.netbsd-amd64.tar.gz
+          commit: null
+          size: 3227539
+          sha256: sha256:66d7835c7661329452a3992fcf78e948f81e1da214f6482acba4ae6c6222017b
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.netbsd-amd64.tar.gz
+        - name: redis_exporter-v1.11.0.netbsd-arm.tar.gz
+          commit: null
+          size: 2969478
+          sha256: sha256:505b4e67b5d7dcce40016ed8277e231f981b8e853f2642a65ac027ccd59ecfa1
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.netbsd-arm.tar.gz
+        - name: redis_exporter-v1.11.0.openbsd-386.tar.gz
+          commit: null
+          size: 3030424
+          sha256: sha256:a90c8522607ba2b466a948696397b1c71eeeabed1a7e26be3fe1da915c7c86fb
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.openbsd-386.tar.gz
+        - name: redis_exporter-v1.11.0.openbsd-amd64.tar.gz
+          commit: null
+          size: 3230755
+          sha256: sha256:d51be6d962020e32a6fd87a330d97b844770ee3115b3d5f470e2ce3a3bc09bbc
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.openbsd-amd64.tar.gz
+        - name: redis_exporter-v1.11.0.solaris-amd64.tar.gz
+          commit: null
+          size: 3224777
+          sha256: sha256:8e5cc89f7b28c51e785dfdfb1423b628590a260fc91e9ec4c2b2993319b4a875
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.solaris-amd64.tar.gz
+        - name: redis_exporter-v1.11.0.windows-386.zip
+          commit: null
+          size: 3080767
+          sha256: sha256:5c1b0c291c9a0ba2b7a2f0bf3aec3c83baf4b89da6ef7c3f1eec9b9145434981
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.windows-386.zip
+        - name: redis_exporter-v1.11.0.windows-amd64.zip
+          commit: null
+          size: 3182234
+          sha256: sha256:4f9ebc0d8691dfadc12414cf06535be4e21f6c885ae7df4a9a23cfdf8a2ccdd7
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/redis_exporter-v1.11.0.windows-amd64.zip
+        - name: sha256sums.txt
+          commit: null
+          size: 2382
+          sha256: sha256:961eae6a8d2c7aa197865dd5edef2b35d0f4d9a6cfa18bf7cc8e8dc398e0d845
+          url: https://github.com/oliver006/redis_exporter/releases/download/v1.11.0/sha256sums.txt
