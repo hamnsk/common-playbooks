@@ -31,3 +31,11 @@ fluentbit:
   description: "Fluentbit user for write data"
   backend_roles:
     - "fluentbit"
+
+readall:
+  hash: "{{ readall_password }}"
+  reserved: false
+  description: "Read All User"
+  backend_roles:
+    - "indexes_app_search_full_access"
+    - "readall"

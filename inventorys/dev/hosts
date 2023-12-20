@@ -1,8 +1,9 @@
 # List all the nodes in the os cluster
 [os-cluster]
-d00os0001 roles=data,master
-d00os0002 roles=data,ingest
-d00os0003 roles=data,ingest
+d00os0001 roles=data,master attr=hot
+d00os0002 roles=data,ingest attr=warm
+d00os0003 roles=data,ingest attr=cold
+
 
 # List all the Master eligible nodes under this group
 [master]

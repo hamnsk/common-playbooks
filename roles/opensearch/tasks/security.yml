@@ -236,6 +236,24 @@
   run_once: true
   when: configuration.changed or iac_enable
 
+- name: Security Plugin configuration | Set the fluentbit user pasword
+  ansible.builtin.shell: >
+    sed -i '/hash: / s,{{ fluentbit_password }},'$(bash {{ os_sec_plugin_tools_path }}/hash.sh -p {{ fluentbit_password }} | tail -1)','
+    {{ os_sec_plugin_conf_path }}/internal_users.yml
+  environment:
+    JAVA_HOME: "{{ os_home }}/jdk"
+  run_once: true
+  when: configuration.changed or iac_enable
+
+- name: Security Plugin configuration | Set the readall user pasword
+  ansible.builtin.shell: >
+    sed -i '/hash: / s,{{ readall_password }},'$(bash {{ os_sec_plugin_tools_path }}/hash.sh -p {{ readall_password }} | tail -1)','
+    {{ os_sec_plugin_conf_path }}/internal_users.yml
+  environment:
+    JAVA_HOME: "{{ os_home }}/jdk"
+  run_once: true
+  when: configuration.changed or iac_enable
+
 - name: Security Plugin configuration | Check that the configs/opensearch/{{env}}/internal_users.yml exists
   ansible.builtin.stat:
     path: configs/opensearch/{{env}}/internal_users.yml

@@ -10,3 +10,6 @@ SYSLOG:
 APPS:
   reserved: false
   description: "Tenant for web-app logs"
+WEB:
+  reserved: false
+  description: "Tenant for nginx logs"

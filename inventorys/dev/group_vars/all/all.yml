@@ -1,7 +1,7 @@
 os_cluster_name: development-cluster
 os_download_url: https://artifacts.opensearch.org/releases/bundle/opensearch
-os_version: "2.9.0"
-os_dashboards_version: "2.9.0"
+os_version: "2.11.1"
+os_dashboards_version: "2.11.1"
 domain_name: k11s.cloud.vsk.local
 xms_value: 4
 xmx_value: 4
@@ -24,3 +24,55 @@ admin_password: "{{ lookup('password', '{{playbook_dir}}/secrets/opensearch/{{en
 kibanaserver_password: "{{ lookup('password', '{{playbook_dir}}/secrets/opensearch/{{env}}/kibanaserver.opensearch chars=ascii_letters,digits length=16') }}"
 logstash_password: "{{ lookup('password', '{{playbook_dir}}/secrets/opensearch/{{env}}/logstash.opensearch chars=ascii_letters,digits length=16') }}"
 fluentbit_password: "{{ lookup('password', '{{playbook_dir}}/secrets/opensearch/{{env}}/fluentbit.opensearch chars=ascii_letters,digits length=16') }}"
+readall_password: "{{ lookup('password', '{{playbook_dir}}/secrets/opensearch/{{env}}/readall.opensearch chars=ascii_letters,digits length=16') }}"
+
+# FluentBit Settings
+log_out_host: d00os0001
+log_out_port: 9200
+log_root: /var/log
+fluentbit_custom_parsers:
+  - Name: syslog-custom
+    Format: regex
+    Regex: '/^\<(?<pri>[0-9]+)\>(?<time>[^ ]* {1,2}[^ ]* [^ ]*) (?<host>[^ ]*) (?<ident>[a-zA-Z0-9_\/\.\-]*)(?:\[(?<pid>[0-9]+)\])?(?:[^\:]*\:)? *(?<message>.*)$/'
+    Time_Key: time
+    Time_Format: "%b %d %H:%M:%S"
+    Time_Keep: "On"
+    Time_Offset: "+0300"
+  - Name: json-custom
+    Format: json
+    Time_Key: time
+    Time_Format: "%Y-%m-%dT%H:%M:%S.%L"
+    Time_Keep: "On"
+    Time_Offset: "+0300"
+    Decode_Field_As: |4
+        escaped_utf8 message do_next
+            Decode_Field_As json message
+fluentbit_inputs:
+  - Name: syslog
+    Parser: syslog-custom
+    Listen: 127.0.0.1
+    Port: 5140
+    Mode: tcp
+    Buffer_Chunk_Size: 1M
+    Buffer_Max_Size: 16M
+fluentbit_filters:
+  - Name: parser
+    Parser: json-custom
+    Match: "*"
+    Key_Name: message
+    Reserve_Data: On
+    Preserve_Key: Off
+
+fluentbit_outputs:
+  - Name: opensearch
+    Match: "*"
+    Host: "{{ log_out_host }}"
+    Port: "{{ log_out_port }}"
+    HTTP_User: fluentbit
+    HTTP_Passwd: "{{ lookup('password', '{{playbook_dir}}/secrets/{{env}}/fluentbit.opensearch.passwd chars=ascii_letters,digits length=16') }}"
+    Tls: On
+    Tls.verify: Off
+    Index: syslog
+    Logstash_Format: "on"
+    Logstash_Prefix: syslog
+    Suppress_Type_Name: "On"
